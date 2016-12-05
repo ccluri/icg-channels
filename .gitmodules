@@ -1,0 +1,18 @@
+[submodule "icg-channels-K"]
+	path = icg-channels-K
+	url = https://github.com/icgenealogy/icg-channels-k
+[submodule "icg-channels-Ca"]
+	path = icg-channels-Ca
+	url = https://github.com/icgenealogy/icg-channels-ca
+[submodule "icg-channels-Na"]
+	path = icg-channels-Na
+	url = https://github.com/icgenealogy/icg-channels-na
+[submodule "icg-channels-IH"]
+	path = icg-channels-IH
+	url = https://github.com/icgenealogy/icg-channels-ih
+[submodule "icg-channels-KCa"]
+	path = icg-channels-KCa
+	url = https://github.com/icgenealogy/icg-channels-KCa
+[submodule "icg-nrn-sim"]
+	path = icg-nrn-sim
+	url = https://github.com/icgenealogy/icg-nrn-sim
