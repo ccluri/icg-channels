@@ -6,3 +6,4 @@ Super-repository for channel models.
 * [icg-channels-Ca](https://github.com/icgenealogy/icg-channels-ca.git)
 * [icg-channels-IH](https://github.com/icgenealogy/icg-channels-ih.git)
 * [icg-channels-KCa](https://github.com/icgenealogy/icg-channels-kca.git)
+* [icg-channels-Other](https://github.com/icgenealogy/icg-channels-other.git)
