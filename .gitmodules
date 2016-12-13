@@ -16,3 +16,6 @@
 [submodule "icg-nrn-sim"]
 	path = icg-nrn-sim
 	url = https://github.com/icgenealogy/icg-nrn-sim
+[submodule "icg-channels-Other"]
+	path = icg-channels-Other
+	url = https://github.com/icgenealogy/icg-channels-Other
