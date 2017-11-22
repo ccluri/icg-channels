@@ -168,6 +168,9 @@ def test_pynmol_unparser(sub_channel, mega_dict):
                 else:
                     mega_dict[channel_folder]['unparser'] = False
                     add_flag(mega_dict[channel_folder], flag=30)
+            except AttributeError:
+                mega_dict[channel_folder]['unparser'] = False
+                add_flag(mega_dict[channel_folder], flag=33)
             except TextXSyntaxError:
                 mega_dict[channel_folder]['unparser'] = False
                 add_flag(mega_dict[channel_folder], flag=31)
@@ -175,15 +178,17 @@ def test_pynmol_unparser(sub_channel, mega_dict):
                 mega_dict[channel_folder]['unparser'] = False
                 add_flag(mega_dict[channel_folder], flag=32)
             os.chdir('../..')
+    print(sub_channel)
     return mega_dict
                 
 # suffix = get_suffix(sample_txt)
 # states = get_states(sample_txt)
 # print(states, suffix)
 
-sub_channel = 'icg-channels-Ca'
-mega_dict = first_pass_dict(sub_channel)
-# with open(sub_channel+'.pkl', 'rb') as handle:
-#     mega_dict = pickle.load(handle)
-new_dict = test_pynmol_unparser(sub_channel, mega_dict)
-dump_dict(sub_channel, new_dict)
+sub_channels = ['icg-channels-K', 'icg-channels-Na', 'icg-channels-Ca', 'icg-channels-IH', 'icg-channels-KCa'] 
+#sub_channel = 'icg-channels-KCa'
+for sub_channel in sub_channels:
+    mega_dict = first_pass_dict(sub_channel)
+    new_dict = test_pynmol_unparser(sub_channel, mega_dict)
+    print('Done sniffing: ', sub_channel)
+    dump_dict(sub_channel, new_dict)
