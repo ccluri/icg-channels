@@ -47,13 +47,24 @@ PARAMETER {
 	ek = -100 (mV)
 	el = -70.0 (mV)	: steady state at v = -65 mV
 }
-STATE {q FROM 0 to 1
+STATE {q FROM 0 TO 1
 	m h n :test_ses
 g
 :test 2
 asds :ter
 asd : t
 }
+
+BREAKPOINT {
+        SOLVE states METHOD cnexp
+        thegna = gbar*m*m*m*h*s
+	ina = thegna * (v - ena)
+        ik = erers * n**3 * (v-ek)
+        g=gbar  *  (g^2)  *  h	
+        ik=g  *(g)  * (v-ek)
+
+}
+
 ASSIGNED {
 	ina (mA/cm2)
 	ik (mA/cm2)
@@ -67,7 +78,7 @@ ASSIGNED {
 regex_nrn = re.compile(r'NEURON\s*\{(\s*[\w+,]\s*)*\s\}?')
 regex_state = re.compile(r'(?<=STATE)\s*\{(?P<st_txt>[^}]+)(?=\})')
 regex_comment = re.compile(r'(:.*)')
-
+regex_breakpoint = re.compile(r'(?<=BREAKPOINT)\s*\{(?P<st_txt>[^}]+)(?=\})')
 
 def remove_comments(txt):
     clear = re.sub(regex_comment, '', txt)
@@ -83,11 +94,42 @@ def get_states(txt):
         state_txt = state_grp.group('st_txt')
         for state in re.finditer(r'(\w+)', state_txt):
             state_list.append(state.group(0))
-        state_list = [x for x in state_list if x not in ['FROM', '0', 'TO', '1']]
+        state_list = [x for x in state_list if x not in ['FROM', '0', 'TO', '1', 'to']]
     except AttributeError:      # No states!
         pass
     return state_list
 
+def get_powers(txt, state):
+    clear_txt = remove_comments(txt)
+    bp_txt = regex_breakpoint.search(clear_txt).group()
+    q = bp_txt.replace('\n', ' ').replace(' ', '').replace('**', '^').replace('*', '  *  ')
+    if q.find('='+state+'  *') > -1:
+        q = q.replace('='+state+'  *', '=1  *  '+state+'  *')  # dirty fix
+    occr = re.findall(r'\*  ?\('+state+'\^[\d]?\)|\*  ?\('+state+'?\)|\*  '+state, q, re.MULTILINE)
+    count = 0
+    for ii in occr:
+        k = ii.find('^')
+        if k == -1:
+            count += 1
+        else:
+            count += int(ii[k+1])
+    if count == 0:
+        print('Something is off, zero gates here \n' + q +'\n'+state)
+    return count
+
+def get_number_gates(txt):
+    states = get_states(txt)
+    print('STATES      :', states)
+    gates = {}
+    counts = 0
+    for state in states:
+        counts += get_powers(txt, state)
+        gates[state] = get_powers(txt, state)
+    if len(states) !=  counts:
+        states_flag = 4
+    else:
+        states_flag = 0
+    return gates, states_flag
 
 def get_suffix(txt):
     clear_txt = remove_comments(txt)  # Just to be sure!
@@ -106,11 +148,30 @@ def dump_dict(sub_channel, mega_dict):
     return
 
 
+def fetch_dict(sub_channel):
+    with open(sub_channel+'.pkl', 'rb') as handle:
+        mega_dict = pickle.load(handle)
+    return mega_dict
+
+
 def add_flag(channel_dict, flag):
     if 'red_flag' in channel_dict:
         channel_dict['red_flag'].append(flag)
     else:
         channel_dict['red_flag'] = [flag]
+    return channel_dict
+
+
+def clear_flags(channel_dict, flag_list):
+    if 'red_flag' in channel_dict:
+        for flag in flag_list:
+            try:
+                channel_dict['red_flag'].remove(flag)
+                print('Cleared flag in channel:', flag)
+            except ValueError:
+                pass
+    else:
+        pass
     return channel_dict
 
 
@@ -147,7 +208,26 @@ def first_pass_dict(sub_channel):
                 else:
                     add_flag(mega_dict[channel_folder], flag=19)
             os.chdir('../..')
-    return mega_dict    
+    return mega_dict
+
+def gate_data(sub_channel, mega_dict):
+    abs_path = os.path.abspath('.')
+    all_channels = os.listdir(os.path.join('.', sub_channel))
+    for channel_folder in all_channels:
+        if channel_folder in ['.git', 'LICENSE', 'Readme.md']:
+            pass
+        else:
+            os.chdir(os.path.join(abs_path, sub_channel, channel_folder))
+            with open(glob('*.mod')[0]) as dummy_file:
+                txt_in_mod = dummy_file.read()
+            gates_dict, states_flag = get_number_gates(txt_in_mod)
+            if states_flag == 4 :
+                add_flag(mega_dict[channel_folder], flag=4)   # HH channels with na or k turned off types
+            if len(gates_dict) == 0:
+                add_flag(mega_dict[channel_folder], flag=5)   #something aweful
+            mega_dict[channel_folder]['gates'] = gates_dict
+    os.chdir('../..')
+    return mega_dict
 
 def test_pynmol_unparser(sub_channel, mega_dict):
     unp = Unparser().compile
@@ -165,6 +245,7 @@ def test_pynmol_unparser(sub_channel, mega_dict):
             try:
                 if unp(dedent(cln_txt)) == cln_txt:
                     mega_dict[channel_folder]['unparser'] = True
+                    clear_flags(mega_dict[channel_folder], [30, 31, 32, 33])
                 else:
                     mega_dict[channel_folder]['unparser'] = False
                     add_flag(mega_dict[channel_folder], flag=30)
@@ -184,11 +265,25 @@ def test_pynmol_unparser(sub_channel, mega_dict):
 # suffix = get_suffix(sample_txt)
 # states = get_states(sample_txt)
 # print(states, suffix)
+# print(get_powers(sample_txt, 'g'))
+# print(get_powers(sample_txt, 'm'))
+# print(get_powers(sample_txt, 'n'))
+# print(get_powers(sample_txt, 's'))
 
-sub_channels = ['icg-channels-K', 'icg-channels-Na', 'icg-channels-Ca', 'icg-channels-IH', 'icg-channels-KCa'] 
-#sub_channel = 'icg-channels-KCa'
+# sub_channels = ['icg-channels-K', 'icg-channels-Na', 'icg-channels-Ca', 'icg-channels-IH', 'icg-channels-KCa'] 
+# # sub_channel = 'icg-channels-K'
+# for sub_channel in sub_channels:
+#     #mega_dict = first_pass_dict(sub_channel)
+#     mega_dict = fetch_dict(sub_channel)
+#     new_dict = test_pynmol_unparser(sub_channel, mega_dict)
+#     print('Done sniffing: ', sub_channel)
+#     dump_dict(sub_channel, new_dict)
+
+sub_channels = ['icg-channels-Na','icg-channels-Ca', 'icg-channels-IH', 'icg-channels-KCa']
 for sub_channel in sub_channels:
-    mega_dict = first_pass_dict(sub_channel)
-    new_dict = test_pynmol_unparser(sub_channel, mega_dict)
-    print('Done sniffing: ', sub_channel)
+    mega_dict = fetch_dict(sub_channel)
+    new_dict =  gate_data(sub_channel, mega_dict)
+    print('Done sniffing for gates: ', sub_channel)
     dump_dict(sub_channel, new_dict)
+
+
