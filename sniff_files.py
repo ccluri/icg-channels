@@ -9,6 +9,8 @@ from textwrap import dedent
 from pynmodl.unparser import Unparser
 from pynmodl.lems import mod2lems
 from xml.dom import minidom
+from scipy.interpolate import interp1d
+import numpy as np
 
 
 sample_txt = '''
@@ -210,6 +212,60 @@ def first_pass_dict(sub_channel):
             os.chdir('../..')
     return mega_dict
 
+def temperature_dependence(file1, file2):
+    test_points = np.array((-80, -60, -40, -20, 0))
+    eval_points = np.zeros((2, len(test_points)))
+    for ii, f in enumerate([file1, file2]):
+        with open(f, 'r') as handle:
+            data = np.loadtxt(handle)
+            x = data[:, 0]
+            y = data[:, 1]
+            eval_points[ii] = interp1d(x, y, kind='cubic')(test_points)
+    dependence = np.mean(np.subtract(eval_points[0], eval_points[1])) > 0.1
+    return dependence
+
+
+def temperature_effect(sub_channel, mega_dict):
+    abs_path = os.path.abspath('.')
+    all_channels = os.listdir(os.path.join('.', sub_channel))
+    for channel_folder in all_channels:
+        if channel_folder in ['.git', 'LICENSE', 'Readme.md']:
+            pass
+        else:
+            os.chdir(os.path.join(abs_path, sub_channel, channel_folder))
+            states = mega_dict[channel_folder]['states']
+            if states:
+                temp_files = {}
+                avail_temps = ['6_3', '37'] 
+                for deg in avail_temps:
+                    temp_list = glob('*.'+states[0]+'.tau.'+deg+'.dat')  # Output files from HHanalyse
+                    if temp_list:
+                        temp_files[deg]  = temp_list[0] # pick first and only file - pruned at previous step
+
+                clear_flags(mega_dict[channel_folder], [11])  # reset
+                if not temp_files:
+                    mega_dict[channel_folder]['HHAnalyse'] = False
+                    mega_dict[channel_folder]['Avail Temps'] = []
+                    add_flag(mega_dict[channel_folder], flag=11)
+                else:
+                    mega_dict[channel_folder]['HHAnalyse'] = True
+                    mega_dict[channel_folder]['Avail Temps'] = list(temp_files.keys())
+
+                if len(temp_files) >= 2:
+                    temp_dependence = temperature_dependence(temp_files[avail_temps[0]],
+                                                             temp_files[avail_temps[1]])
+                    #print(temp_dependence, channel_folder)
+                    if temp_dependence:
+                        add_flag(mega_dict[channel_folder], flag=50)   # temp dependence
+                    else:
+                        add_flag(mega_dict[channel_folder], flag=51)   # No temp dependence
+                else:
+                    temp_dependence = None
+                    add_flag(mega_dict[channel_folder], flag=52)   # unknown dependence - probably
+                mega_dict[channel_folder]['Temp dependence'] = temp_dependence
+            os.chdir('../..')
+    return mega_dict
+
 def gate_data(sub_channel, mega_dict):
     abs_path = os.path.abspath('.')
     all_channels = os.listdir(os.path.join('.', sub_channel))
@@ -279,11 +335,21 @@ def test_pynmol_unparser(sub_channel, mega_dict):
 #     print('Done sniffing: ', sub_channel)
 #     dump_dict(sub_channel, new_dict)
 
-sub_channels = ['icg-channels-Na','icg-channels-Ca', 'icg-channels-IH', 'icg-channels-KCa']
+# sub_channels = ['icg-channels-Na','icg-channels-Ca', 'icg-channels-IH', 'icg-channels-KCa']
+# sub_channels = ['icg-channels-K']
+# for sub_channel in sub_channels:
+#     mega_dict = fetch_dict(sub_channel)
+#     new_dict =  gate_data(sub_channel, mega_dict)
+#     print('Done sniffing for gates: ', sub_channel)
+#     dump_dict(sub_channel, new_dict)
+
+sub_channels = ['icg-channels-K']
 for sub_channel in sub_channels:
     mega_dict = fetch_dict(sub_channel)
-    new_dict =  gate_data(sub_channel, mega_dict)
     print('Done sniffing for gates: ', sub_channel)
+    new_dict = temperature_effect(sub_channel, mega_dict)
     dump_dict(sub_channel, new_dict)
-
-
+    #print(new_dict)
+# file1 = 'icg-channels-K/64229_bgka.mod/borgka.n.tau.6_3.dat'
+# file2 = 'icg-channels-K/64229_bgka.mod/borgka.n.tau.37.dat'
+# p  = temperature_dependence(file1, file2)
