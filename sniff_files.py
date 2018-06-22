@@ -144,6 +144,25 @@ def get_suffix(txt):
     return sfx_str
 
 
+def gate_data(sub_channel, mega_dict):
+    abs_path = os.path.abspath('.')
+    all_channels = os.listdir(os.path.join('.', sub_channel))
+    for channel_folder in all_channels:
+        if channel_folder in ['.git', 'LICENSE', 'Readme.md']:
+            pass
+        else:
+            os.chdir(os.path.join(abs_path, sub_channel, channel_folder))
+            with open(glob('*.mod')[0]) as dummy_file:
+                txt_in_mod = dummy_file.read()
+            gates_dict, states_flag = get_number_gates(txt_in_mod)
+            if states_flag == 4 :
+                add_flag(mega_dict[channel_folder], flag=4)   # HH channels with na or k turned off types
+            if len(gates_dict) == 0:
+                add_flag(mega_dict[channel_folder], flag=5)   #something aweful
+            mega_dict[channel_folder]['gates'] = gates_dict
+    os.chdir('../..')
+    return mega_dict
+
 def dump_dict(sub_channel, mega_dict):
     with open(sub_channel+'.pkl', 'wb') as handle:
         pickle.dump(mega_dict, handle, protocol=2)
@@ -158,7 +177,10 @@ def fetch_dict(sub_channel):
 
 def add_flag(channel_dict, flag):
     if 'red_flag' in channel_dict:
-        channel_dict['red_flag'].append(flag)
+        if flag in channel_dict['red_flag']:
+            pass
+        else:
+            channel_dict['red_flag'].append(flag)
     else:
         channel_dict['red_flag'] = [flag]
     return channel_dict
@@ -168,7 +190,7 @@ def clear_flags(channel_dict, flag_list):
     if 'red_flag' in channel_dict:
         for flag in flag_list:
             try:
-                channel_dict['red_flag'].remove(flag)
+                channel_dict['red_flag'] = list(filter((flag).__ne__, channel_dict['red_flag']))
                 print('Cleared flag in channel:', flag)
             except ValueError:
                 pass
@@ -212,6 +234,7 @@ def first_pass_dict(sub_channel):
             os.chdir('../..')
     return mega_dict
 
+
 def temperature_dependence(file1, file2):
     test_points = np.array((-80, -60, -40, -20, 0))
     eval_points = np.zeros((2, len(test_points)))
@@ -232,6 +255,7 @@ def temperature_effect(sub_channel, mega_dict):
         if channel_folder in ['.git', 'LICENSE', 'Readme.md']:
             pass
         else:
+            mega_dict[channel_folder] = clear_flags(mega_dict[channel_folder], [30, 31, 32, 33]) # reset textx type errors
             os.chdir(os.path.join(abs_path, sub_channel, channel_folder))
             states = mega_dict[channel_folder]['states']
             if states:
@@ -241,8 +265,7 @@ def temperature_effect(sub_channel, mega_dict):
                     temp_list = glob('*.'+states[0]+'.tau.'+deg+'.dat')  # Output files from HHanalyse
                     if temp_list:
                         temp_files[deg]  = temp_list[0] # pick first and only file - pruned at previous step
-
-                clear_flags(mega_dict[channel_folder], [11])  # reset
+                mega_dict[channel_folder] = clear_flags(mega_dict[channel_folder], [11])  # reset
                 if not temp_files:
                     mega_dict[channel_folder]['HHAnalyse'] = False
                     mega_dict[channel_folder]['Avail Temps'] = []
@@ -266,26 +289,8 @@ def temperature_effect(sub_channel, mega_dict):
             os.chdir('../..')
     return mega_dict
 
-def gate_data(sub_channel, mega_dict):
-    abs_path = os.path.abspath('.')
-    all_channels = os.listdir(os.path.join('.', sub_channel))
-    for channel_folder in all_channels:
-        if channel_folder in ['.git', 'LICENSE', 'Readme.md']:
-            pass
-        else:
-            os.chdir(os.path.join(abs_path, sub_channel, channel_folder))
-            with open(glob('*.mod')[0]) as dummy_file:
-                txt_in_mod = dummy_file.read()
-            gates_dict, states_flag = get_number_gates(txt_in_mod)
-            if states_flag == 4 :
-                add_flag(mega_dict[channel_folder], flag=4)   # HH channels with na or k turned off types
-            if len(gates_dict) == 0:
-                add_flag(mega_dict[channel_folder], flag=5)   #something aweful
-            mega_dict[channel_folder]['gates'] = gates_dict
-    os.chdir('../..')
-    return mega_dict
-
 def test_pynmol_unparser(sub_channel, mega_dict):
+    ''' depricated '''
     unp = Unparser().compile
     abs_path = os.path.abspath('.')
     all_channels = os.listdir(os.path.join('.', sub_channel))
@@ -301,7 +306,7 @@ def test_pynmol_unparser(sub_channel, mega_dict):
             try:
                 if unp(dedent(cln_txt)) == cln_txt:
                     mega_dict[channel_folder]['unparser'] = True
-                    clear_flags(mega_dict[channel_folder], [30, 31, 32, 33])
+                    mega_dict[channel_folder] = clear_flags(mega_dict[channel_folder], [30, 31, 32, 33])
                 else:
                     mega_dict[channel_folder]['unparser'] = False
                     add_flag(mega_dict[channel_folder], flag=30)
