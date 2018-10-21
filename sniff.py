@@ -81,7 +81,7 @@ def remove_comments(txt):
     clear = re.sub(regex_comment, '', txt)
     return clear
 
-def get_states(txt):
+def get_states(txt, suffix, channel_type):
     clear_txt = remove_comments(txt)  # Just to be sure!
     #state_grp = re.search(r'(?<=STATE)\s*\{(?P<st_txt>[^}]+)(?=\})', clear_txt)
     state_grp = regex_state.search(clear_txt)
@@ -93,6 +93,11 @@ def get_states(txt):
         state_list = [x for x in state_list if x not in ['FROM', '0', 'TO', '1', 'to']]
     except AttributeError:      # No states!
         pass
+    if suffix.lower().find('hh') > -1:
+        if channel_type == 'K':
+            state_list = list(set(state_list).difference(set(['m', 'h'])))
+        elif channel_type == 'Na':
+            state_list = list(set(state_list).difference(set(['n'])))
     return state_list
 
 def get_powers(txt, state):
@@ -113,19 +118,13 @@ def get_powers(txt, state):
         print('Something is off, zero gates here \n' + q +'\n'+state)
     return count
 
-def get_number_gates(txt):
-    states = get_states(txt)
-    print('STATES      :', states)
+def get_number_gates(txt, states):
     gates = {}
-    counts = 0
+    counts = 1
     for state in states:
-        counts += get_powers(txt, state)
+        counts *= get_powers(txt, state)  # checking if zero
         gates[state] = get_powers(txt, state)
-    if len(states) !=  counts:
-        states_flag = 4
-    else:
-        states_flag = 0
-    return gates, states_flag
+    return gates, counts
 
 def get_suffix(txt):
     clear_txt = remove_comments(txt)  # Just to be sure!
@@ -302,6 +301,59 @@ def load_neuron(temp_dir, custom_dir, custom_files):
         h.load_file(cust)
     return h
 
+
+def run_sim_at_temp(temp, h, channel_type, suffix, gates):
+    chan_suff = {'K':'ik', 'Na':'ina', 'Ca':'ica', 'IH':'i'}[channel_type]
+    erev_def = {'K': -86.7, 'Na': 50.0, 'Ca': 135.0, 'KCa': -86.7, 'IH': -45.0}[channel_type]
+    erev_label = {'K':'ek', 'Na':'ena', 'Ca':'eca', 'IH':'eh'}[channel_type]
+    from nrnutils import Section, Mechanism
+    rr = np.sqrt(100/np.pi)
+    mech = Mechanism(suffix)
+    soma = Section(L=rr, diam=rr, mechanisms=[mech])
+    setattr(soma, erev_label, erev_def)
+    h.dt = 0.0001
+    h.tstop = 1
+    h.celsius = temp
+    i = h.Vector()
+    i_flag = False
+    n_flag = False
+    ws_flag = False
+    try:
+        i.record(eval('soma(0.5)._ref_'+chan_suff))
+    except NameError:
+        if chan_suff != 'ih':
+            i.record(eval('soma(0.5)._ref_'+chan_suff+'_'+suffix))
+        else:
+            i.record(eval('soma(0.5)._ref_i_'+suffix))
+    except:
+        i_flag = True
+    h.run()
+    i_last = np.array(i)[-1]
+    prod = 1.
+    gval = None
+    try:
+        for gate, count in gates.items():
+            if chan_suff != 'ih':
+                gate_val = eval('soma(0.5).'+gate+'_'+suffix)
+            else:
+                gate_val = eval('soma.'+gate+'_'+suffix)
+            prod *= gate_val**count
+        vm = soma.v
+        erev = eval('soma.'+erev_label)
+        try:
+            gval = i_last / ((vm-erev)*(prod))
+        except RuntimeError:
+            n_flag = True
+    except:
+        n_flag = True
+    return gval, i_flag, n_flag
+        
+def fetch_gvals_curr(h ,channel_type, suffix, gates):
+    i_vals = {}
+    i_vals[37], i_flag, n_flag = run_sim_at_temp(37, h, channel_type, suffix, gates)
+    i_vals[6.3], i_flag, n_flag = run_sim_at_temp(6.3, h, channel_type, suffix, gates)
+    return i_vals, i_flag, n_flag
+
 def fetch_gvals(h, suffix):
     neuron_items = dir(h)
     candidate = []
@@ -323,10 +375,9 @@ def fetch_gvals(h, suffix):
     g_dict = {}
     for cand in candidate:
         try:
-            g_dict[cand] = eval('soma(0.5).'+cand)
+            g_dict[cand] = eval('soma(0.5).'+cand)  # When defined as range
         except:
-            g_dict[cand] = eval('h.'+cand)
-        
+            g_dict[cand] = eval('h.'+cand)  # Perhaps defined as a global
     return g_dict, candidate, mech_flag
 
 
@@ -345,7 +396,10 @@ if __name__ == '__main__':
         if ff.endswith(fname_hoc):
             custom_files.append(os.path.join(custom_dir, ff))
     #h = load_neuron(temp_dir, custom_dir, custom_files)
-    h = load_neuron(os.path.dirname(filepath), custom_dir, custom_files)
+    try:
+        h = load_neuron(os.path.dirname(filepath), custom_dir, custom_files)
+    except RuntimeError:
+        flags.append(1)
     with open(filepath, 'r') as f:
         txt = f.read()
     suffix = get_suffix(txt)
@@ -367,6 +421,27 @@ if __name__ == '__main__':
                 else: # g_dict is of length 1
                     likely_gbar_str = g_dict.keys()[0]
                 print(g_dict, '$'*30)
+                if likely_gbar_str: # For one gbar cases
+                    states = get_states(txt, suffix, channel_type)
+                    if len(states) == 0:
+                        flags.append(3)
+                    else:
+                        gates, counts = get_number_gates(txt, states)
+                        if counts < 1:
+                            flags.append(4)
+                        else:
+                            print(gates, filepath)
+                            i_vals, i_flag, n_flag = fetch_gvals_curr(h, channel_type, suffix, gates)
+                            if i_flag :
+                                flags.append(10)
+                            if n_flag :
+                                flags.append(6)
+                            if not i_flag and not n_flag:
+                                if i_vals[37] / g_dict[likely_gbar_str] > 100:
+                                    flags.append(8)
+                                else:
+                                    print(i_vals)
+                            
         else:
             flags.append(1)            
     else:
