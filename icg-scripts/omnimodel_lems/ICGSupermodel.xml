@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" 
+	 id="ICGSupermodel">
+
+  <Dimension name="per_voltage" m="-1" l="-2" t="3" i="1"/>
+
+  <ComponentType name="ICGSS"
+                 description="ComponentType for voltage dependent dimensionless variable which follow the Supermodel formalism, using the parameters a, b, c, d"
+                 extends="baseVoltageDepVariable">
+    <Parameter name="a" dimension="per_voltage"/>
+    <Parameter name="b" dimension="none"/>
+    <Parameter name="c" dimension="none"/>
+    <Parameter name="d" dimension="none"/>
+
+    <Dynamics>
+      <DerivedVariable name="x" dimension="none" exposure="x" value="(c / (1 + exp((b - (a * v)))) + d"/>
+    </Dynamics>
+  </ComponentType>
+
+  <ComponentType name="ICGTau"
+                 description="ComponentType for voltage dependent time variable which follow the Supermodel formalism, using the parameters A, b1, b2, c1, c2, d1, d2, vh"
+		 extends="baseVoltageDepTime">
+    <Parameter name="A" dimension="time"/>
+    <Parameter name="b1" dimension="none"/>
+    <Parameter name="b2" dimension="none"/>
+    <Parameter name="c1" dimension="none"/>
+    <Parameter name="c2" dimension="none"/>
+    <Parameter name="d1" dimension="none"/>
+    <Parameter name="d2" dimension="none"/>
+    <Parameter name="vh" dimension="voltage"/>
+
+    <Constant name="VOLT_SCALE" dimension="voltage" value="1 mV"/>
+
+    <Dynamics>
+      <DerivedVariable name="diffV" dimension="none" value="v - vh / VOLT_SCALE"/>
+      <DerivedVariable name="NegSum" dimension="none" value="(b1 * diffV) + (c1* diffV^2) + (d1*diffV^3)"/>
+      <DerivedVariable name="diffV" dimension="none" value="(b2 * diffV) + (c2* diffV^2) + (d2*diffV^3)"/>
+      <DerivedVariable name="t" exposure="t" dimension="time" value="A / (exp(-NegSum) + exp(posSum))"/>
+    </Dynamics>
+  </ComponentType>
+
+  <ComponentType name="gateICG"
+                 extends="gate"
+                 description="Gate which follows the ICG's Supermodel formalism">
+
+    <Child name="timeCourse" type="ICGSS" />
+    <Child name="steadyState" type="ICGTau" />
+
+    <Exposure name="tau" dimension="time"/>
+    <Exposure name="inf" dimension="none"/>
+
+    <Dynamics>
+      
+      <StateVariable name="q" exposure="q" dimension="none"/>
+
+      <DerivedVariable name="fcond" exposure="fcond" dimension="none" value="q^instances"/>
+      <DerivedVariable name="inf" dimension="none" exposure="inf" select="steadyState/x"/>
+      <DerivedVariable name="tauUnscaled" dimension="time" select="timeCourse/t"/>
+      <DerivedVariable name="tau" dimension="time" exposure="tau" value="tauUnscaled"/>
+
+      <TimeDerivative variable="q" value="(inf - q) / tau"/>
+
+      <OnStart>
+        <StateAssignment variable="q" value="inf"/>
+      </OnStart>
+
+    </Dynamics>
+  </ComponentType>
+  
+  <ComponentType name="IonChannelSM" 
+                 extends="ionChannelHH"
+                 description="ion channel description as per super models.">
+    <Children name="gates" type="gateICG"/>
+  </ComponentType>
+</neuroml>
