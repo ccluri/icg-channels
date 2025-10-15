@@ -6,16 +6,19 @@ def append_var(var_list, var):
         
 
 def inf_terms(var, sm_type):
-    if sm_type == 'SM1':
+    if sm_type == 'OM1':  # Difference between OM1 and OM2 is the sigmoidal fit and modified sigmoidal
         tt = append_var(['a', 'b'], var)
         eq = '1/(1 + exp(-%s*v + %s)) \n' % tuple(tt)
-    elif sm_type == 'SM2':
+    elif sm_type == 'OM2':
         tt = append_var(['c', 'a', 'b', 'd'], var)
         eq = '(%s/(1 + exp(-%s*v + %s))) + %s \n' % tuple(tt)
     return eq
     
 
 def tau_terms(var):
+    '''
+    third order tau curve
+    '''
     f = append_var(['b1', 'vh', 'c1', 'vh', 'd1', 'vh'], var)
     f_t = 'exp(-(%s*(v-%s) + %s*(v-%s)^2 + %s*(v-%s)^3))' % tuple(f)
     s = append_var(['b2', 'vh', 'c2', 'vh', 'd2', 'vh'], var)
@@ -43,12 +46,12 @@ def units_text():
 
 
 def parameter_text(var_params_dict, sm_type, gbar_dict):
-    #if sm_type == 'SM1':
+    # Default is OM1
     param_units = {'a': '(/mV)', 'b': '(1)',
                    'A': '(/ms)', 'vh': '(mV)',
                    'b1': '(/mV)', 'c1': '(/mV2)', 'd1': '(/mV3)',
                    'b2': '(/mV)', 'c2': '(/mV2)', 'd2': '(/mV3)'}
-    if sm_type == 'SM2':
+    if sm_type == 'OM2':
         param_units['c'] = '(1)'
         param_units['d'] = '(1)'
     
@@ -68,7 +71,7 @@ def assigned_text(variables, channel_prefix):
         ln += '  e%s\t(mV)\n  i%s\t(mA/cm2)\n' % tuple([channel_prefix]*2)
     elif channel_prefix == 'h':
         ln += '  eh\t(mV)\n  i\t(mA/cm2)\n'
-    ln += '  g\t(S/cm2)\n  celsius\t(degC)\n'''
+    ln += '  g\t(S/cm2)\n  celsius\t(degC)\n'
     for var in variables:
         varinf = var+'Inf'
         vartau = var+'Tau'
@@ -121,12 +124,13 @@ def init_txt(variables):
 
 def procedure_text(variables, sm_type):
     eq = '''PROCEDURE rates(v(mV))\n{\n'''
-    # eq += '''  LOCAL qt\n  qt = 2.3^((celsius-21)/10)\n'''
+    eq += '''  LOCAL qt\n  qt = q10^((celsius - temp)/10)\n'''
+    bonus_tau = 'qt*'
     eq += '  UNITSOFF\n'
     eq += '\n'
     for var in variables:
         eq += '    ' + var + 'Inf = ' + inf_terms(var, sm_type)
-        eq += '    ' + var + 'Tau = ' + tau_terms(var)
+        eq += '    ' + var + 'Tau = ' + bonus_tau + tau_terms(var)  # temp dependence is added
         eq += '\n'
     eq += '\n'
     eq += '  UNITSON\n}'

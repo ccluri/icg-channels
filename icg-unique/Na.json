@@ -1,0 +1,4054 @@
+{
+  "ion_class": "Na",
+  "nodes_count": 378,
+  "copies_total": 1023,
+  "nodes": [
+    {
+      "node_id": "24",
+      "name": "50210_naxn-ID-1",
+      "ion_class": "Na",
+      "copies": 8,
+      "unique_ids": [
+        "50210_naxn-ID-1",
+        "43039_naxn-ID-1",
+        "114665_naxn-ID-1",
+        "87546_naxn-ID-1",
+        "97263_naxn-ID-1",
+        "149415_naxn-ID-1",
+        "170030_naxn-ID-1",
+        "240116_naxn-ID-1"
+      ]
+    },
+    {
+      "node_id": "28",
+      "name": "184182_NaTs-ID-1",
+      "ion_class": "Na",
+      "copies": 50,
+      "unique_ids": [
+        "184182_NaTs-ID-1",
+        "184346_NaTs-ID-1",
+        "184176_NaTs-ID-1",
+        "184196_NaTs-ID-1",
+        "184337_NaTs-ID-1",
+        "184163_NaTs-ID-1",
+        "184352_NaTs-ID-1",
+        "184157_NaTs-ID-1",
+        "184331_NaTs-ID-1",
+        "184323_NaTs-ID-1",
+        "184303_NaTs-ID-1",
+        "184202_NaTs-ID-1",
+        "184186_NaTs-ID-1",
+        "184178_NaTs-ID-1",
+        "184142_NaTs-ID-1",
+        "184297_NaTs-ID-1",
+        "184316_NaTs-ID-1",
+        "184321_NaTs-ID-1",
+        "184333_NaTs-ID-1",
+        "184344_NaTs-ID-1",
+        "184325_NaTs-ID-1",
+        "184159_NaTs-ID-1",
+        "184329_NaTs-ID-1",
+        "184299_NaTs-ID-1",
+        "184148_NaTs-ID-1",
+        "184184_NaTs-ID-1",
+        "184339_NaTs-ID-1",
+        "184171_NaTs-ID-1",
+        "184348_NaTs-ID-1",
+        "184335_NaTs-ID-1",
+        "184350_NaTs-ID-1",
+        "184145_NaTs-ID-1",
+        "184319_NaTs-ID-1",
+        "184168_NaTs-ID-1",
+        "184314_NaTs-ID-1",
+        "184180_NaTs-ID-1",
+        "184274_NaTs-ID-1",
+        "184152_NaTs-ID-1",
+        "184308_NaTs-ID-1",
+        "184301_NaTs-ID-1",
+        "184314_NaTs-ID-2",
+        "184341_NaTs-ID-1",
+        "184310_NaTs-ID-1",
+        "184305_NaTs-ID-1",
+        "184327_NaTs-ID-1",
+        "184166_NaTs-ID-1",
+        "184161_NaTs-ID-1",
+        "184173_NaTs-ID-1",
+        "184231_NaTs-ID-1",
+        "184312_NaTs-ID-1"
+      ]
+    },
+    {
+      "node_id": "31",
+      "name": "184319_NaTa-ID-1",
+      "ion_class": "Na",
+      "copies": 50,
+      "unique_ids": [
+        "184319_NaTa-ID-1",
+        "184148_NaTa-ID-1",
+        "184196_NaTa-ID-1",
+        "184350_NaTa-ID-1",
+        "184161_NaTa-ID-1",
+        "184314_NaTa-ID-2",
+        "184337_NaTa-ID-1",
+        "184142_NaTa-ID-1",
+        "184310_NaTa-ID-1",
+        "184323_NaTa-ID-1",
+        "184331_NaTa-ID-1",
+        "184299_NaTa-ID-1",
+        "184163_NaTa-ID-1",
+        "184184_NaTa-ID-1",
+        "184335_NaTa-ID-1",
+        "184202_NaTa-ID-1",
+        "184186_NaTa-ID-1",
+        "184152_NaTa-ID-1",
+        "184303_NaTa-ID-1",
+        "184301_NaTa-ID-1",
+        "184312_NaTa-ID-1",
+        "184166_NaTa-ID-1",
+        "184325_NaTa-ID-1",
+        "184305_NaTa-ID-1",
+        "184145_NaTa-ID-1",
+        "184339_NaTa-ID-1",
+        "184308_NaTa-ID-1",
+        "184182_NaTa-ID-1",
+        "184316_NaTa-ID-1",
+        "184348_NaTa-ID-1",
+        "184168_NaTa-ID-1",
+        "184178_NaTa-ID-1",
+        "184327_NaTa-ID-1",
+        "184314_NaTa-ID-1",
+        "184321_NaTa-ID-1",
+        "184333_NaTa-ID-1",
+        "184329_NaTa-ID-1",
+        "184341_NaTa-ID-1",
+        "184231_NaTa-ID-1",
+        "184274_NaTa-ID-1",
+        "184297_NaTa-ID-1",
+        "184352_NaTa-ID-1",
+        "184180_NaTa-ID-1",
+        "184344_NaTa-ID-1",
+        "184346_NaTa-ID-1",
+        "184171_NaTa-ID-1",
+        "184176_NaTa-ID-1",
+        "184157_NaTa-ID-1",
+        "184159_NaTa-ID-1",
+        "184173_NaTa-ID-1"
+      ]
+    },
+    {
+      "node_id": "33",
+      "name": "184344_Nap-ID-1",
+      "ion_class": "Na",
+      "copies": 50,
+      "unique_ids": [
+        "184344_Nap-ID-1",
+        "184301_Nap-ID-1",
+        "184299_Nap-ID-1",
+        "184348_Nap-ID-1",
+        "184341_Nap-ID-1",
+        "184321_Nap-ID-1",
+        "184323_Nap-ID-1",
+        "184325_Nap-ID-1",
+        "184333_Nap-ID-1",
+        "184350_Nap-ID-1",
+        "184319_Nap-ID-1",
+        "184152_Nap-ID-1",
+        "184182_Nap-ID-1",
+        "184331_Nap-ID-1",
+        "184305_Nap-ID-1",
+        "184312_Nap-ID-1",
+        "184148_Nap-ID-1",
+        "184178_Nap-ID-1",
+        "184339_Nap-ID-1",
+        "184161_Nap-ID-1",
+        "184316_Nap-ID-1",
+        "184168_Nap-ID-1",
+        "184196_Nap-ID-1",
+        "184176_Nap-ID-1",
+        "184159_Nap-ID-1",
+        "184303_Nap-ID-1",
+        "184163_Nap-ID-1",
+        "184335_Nap-ID-1",
+        "184337_Nap-ID-1",
+        "184186_Nap-ID-1",
+        "184180_Nap-ID-1",
+        "184308_Nap-ID-1",
+        "184314_Nap-ID-1",
+        "184346_Nap-ID-1",
+        "184274_Nap-ID-1",
+        "184142_Nap-ID-1",
+        "184184_Nap-ID-1",
+        "184171_Nap-ID-1",
+        "184202_Nap-ID-1",
+        "184314_Nap-ID-2",
+        "184145_Nap-ID-1",
+        "184173_Nap-ID-1",
+        "184297_Nap-ID-1",
+        "184310_Nap-ID-1",
+        "184329_Nap-ID-1",
+        "184327_Nap-ID-1",
+        "184231_Nap-ID-1",
+        "184352_Nap-ID-1",
+        "184157_Nap-ID-1",
+        "184166_Nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "60",
+      "name": "7399_naf-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "7399_naf-ID-1",
+        "7400_naf-ID-1"
+      ]
+    },
+    {
+      "node_id": "122",
+      "name": "123815_Naaxon-ID-1",
+      "ion_class": "Na",
+      "copies": 7,
+      "unique_ids": [
+        "123815_Naaxon-ID-1",
+        "151126_Naaxon-ID-1",
+        "181967_Naaxon-ID-1",
+        "157157_Naaxon-ID-1",
+        "246546_Naaxon-ID-1",
+        "256388_Naaxon-ID-1",
+        "256311_Naaxon-ID-1"
+      ]
+    },
+    {
+      "node_id": "127",
+      "name": "123815_Nadend-ID-1",
+      "ion_class": "Na",
+      "copies": 7,
+      "unique_ids": [
+        "123815_Nadend-ID-1",
+        "151126_Nadend-ID-1",
+        "157157_Nadend-ID-1",
+        "181967_Nadend-ID-1",
+        "256388_Nadend-ID-1",
+        "246546_Nadend-ID-1",
+        "256311_Nadend-ID-1"
+      ]
+    },
+    {
+      "node_id": "135",
+      "name": "20212_nap-ID-1",
+      "ion_class": "Na",
+      "copies": 4,
+      "unique_ids": [
+        "20212_nap-ID-1",
+        "144490_nap-ID-2",
+        "206244_nap-ID-1",
+        "157157_nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "143",
+      "name": "123815_Nasoma-ID-1",
+      "ion_class": "Na",
+      "copies": 7,
+      "unique_ids": [
+        "123815_Nasoma-ID-1",
+        "151126_Nasoma-ID-1",
+        "157157_Nasoma-ID-1",
+        "181967_Nasoma-ID-1",
+        "246546_Nasoma-ID-1",
+        "256388_Nasoma-ID-1",
+        "256311_Nasoma-ID-1"
+      ]
+    },
+    {
+      "node_id": "183",
+      "name": "222321_inad-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "222321_inad-ID-1"
+      ]
+    },
+    {
+      "node_id": "184",
+      "name": "222321_inas-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "222321_inas-ID-1"
+      ]
+    },
+    {
+      "node_id": "193",
+      "name": "222321_pnas-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "222321_pnas-ID-1"
+      ]
+    },
+    {
+      "node_id": "194",
+      "name": "222321_pnad-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "222321_pnad-ID-1"
+      ]
+    },
+    {
+      "node_id": "239",
+      "name": "62285_B_NA-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "62285_B_NA-ID-1"
+      ]
+    },
+    {
+      "node_id": "240",
+      "name": "62285_SS-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "62285_SS-ID-1",
+        "62284_SS-ID-1"
+      ]
+    },
+    {
+      "node_id": "241",
+      "name": "229585_Nav16-ID-1",
+      "ion_class": "Na",
+      "copies": 5,
+      "unique_ids": [
+        "229585_Nav16-ID-1",
+        "239421_Nav16-ID-1",
+        "266806_Nav16-ID-2",
+        "266806_Nav16-ID-1",
+        "267189_Nav16-ID-1"
+      ]
+    },
+    {
+      "node_id": "271",
+      "name": "144089_nap-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "144089_nap-ID-1",
+        "230811_nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "275",
+      "name": "230811_naf_in-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "230811_naf_in-ID-1"
+      ]
+    },
+    {
+      "node_id": "286",
+      "name": "32992_na3n-ID-1",
+      "ion_class": "Na",
+      "copies": 6,
+      "unique_ids": [
+        "32992_na3n-ID-1",
+        "71312_na3n-ID-1",
+        "106551_na3n-ID-1",
+        "119283_na3n-ID-1",
+        "206378_na3n-ID-1",
+        "223962_na3n-ID-1"
+      ]
+    },
+    {
+      "node_id": "287",
+      "name": "32992_naxn-ID-1",
+      "ion_class": "Na",
+      "copies": 13,
+      "unique_ids": [
+        "32992_naxn-ID-1",
+        "44050_naxn-ID-1",
+        "97874_naxn-ID-1",
+        "71312_naxn-ID-1",
+        "106551_naxn-ID-1",
+        "101629_naxn-ID-1",
+        "119283_naxn-ID-1",
+        "181967_naxn-ID-1",
+        "206378_naxn-ID-1",
+        "223649_naxn-ID-2",
+        "223962_naxn-ID-1",
+        "223649_naxn-ID-1",
+        "267298_naxn-ID-1"
+      ]
+    },
+    {
+      "node_id": "294",
+      "name": "222716_naslow-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "222716_naslow-ID-1"
+      ]
+    },
+    {
+      "node_id": "300",
+      "name": "222716_nafast-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "222716_nafast-ID-1"
+      ]
+    },
+    {
+      "node_id": "313",
+      "name": "80769_Narsg-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "80769_Narsg-ID-1"
+      ]
+    },
+    {
+      "node_id": "317",
+      "name": "80769_Na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "80769_Na-ID-1"
+      ]
+    },
+    {
+      "node_id": "325",
+      "name": "151460_Na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "151460_Na-ID-1"
+      ]
+    },
+    {
+      "node_id": "329",
+      "name": "151460_NaL-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "151460_NaL-ID-1"
+      ]
+    },
+    {
+      "node_id": "340",
+      "name": "124291_na3n-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "124291_na3n-ID-1"
+      ]
+    },
+    {
+      "node_id": "346",
+      "name": "124291_fna-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "124291_fna-ID-1"
+      ]
+    },
+    {
+      "node_id": "354",
+      "name": "135787_na-ID-1",
+      "ion_class": "Na",
+      "copies": 5,
+      "unique_ids": [
+        "135787_na-ID-1",
+        "108458_na-ID-1",
+        "144372_Na-ID-1",
+        "143604_na-ID-1",
+        "150538_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "377",
+      "name": "151458_naf-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "151458_naf-ID-1"
+      ]
+    },
+    {
+      "node_id": "378",
+      "name": "112834_nap-ID-1",
+      "ion_class": "Na",
+      "copies": 3,
+      "unique_ids": [
+        "112834_nap-ID-1",
+        "150284_nap-ID-1",
+        "151458_nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "395",
+      "name": "151404_hh3na-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "151404_hh3na-ID-1",
+        "167694_hh3na-ID-1"
+      ]
+    },
+    {
+      "node_id": "420",
+      "name": "55035_na3n-ID-1",
+      "ion_class": "Na",
+      "copies": 19,
+      "unique_ids": [
+        "55035_na3n-ID-1",
+        "87535_na3n-ID-1",
+        "112546_na3n-ID-1",
+        "118986_na3n-ID-1",
+        "126776_na3n-ID-1",
+        "138205_na3n-ID-1",
+        "144392_na3n-ID-1",
+        "146376_na3n-ID-1",
+        "144976_na3n-ID-1",
+        "148094_na3n-ID-1",
+        "148644_na3n-ID-1",
+        "146509_na3n-ID-1",
+        "154732_na3n-ID-1",
+        "151731_na3n-ID-1",
+        "157339_na3n-ID-1",
+        "170030_na3n-ID-1",
+        "190559_na3n-ID-1",
+        "217882_na3n-ID-1",
+        "244412_na3n-ID-1"
+      ]
+    },
+    {
+      "node_id": "421",
+      "name": "55035_naxn-ID-1",
+      "ion_class": "Na",
+      "copies": 19,
+      "unique_ids": [
+        "55035_naxn-ID-1",
+        "87535_naxn-ID-1",
+        "112546_naxn-ID-1",
+        "118986_naxn-ID-1",
+        "87284_naxn-ID-1",
+        "126776_naxn-ID-1",
+        "138205_naxn-ID-1",
+        "144392_naxn-ID-1",
+        "146376_naxn-ID-1",
+        "144976_naxn-ID-1",
+        "148094_naxn-ID-1",
+        "148644_naxn-ID-1",
+        "151731_naxn-ID-1",
+        "154732_naxn-ID-1",
+        "157339_naxn-ID-1",
+        "190559_naxn-ID-1",
+        "244412_naxn-ID-1",
+        "185864_naxn-ID-1",
+        "267307_naxn-ID-1"
+      ]
+    },
+    {
+      "node_id": "437",
+      "name": "183949_naps-ID-1",
+      "ion_class": "Na",
+      "copies": 4,
+      "unique_ids": [
+        "183949_naps-ID-1",
+        "217882_naps-ID-1",
+        "239582_naps-ID-1",
+        "267176_naps-ID-1"
+      ]
+    },
+    {
+      "node_id": "445",
+      "name": "144579_naf2-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "144579_naf2-ID-1"
+      ]
+    },
+    {
+      "node_id": "448",
+      "name": "97917_napf_tcr-ID-1",
+      "ion_class": "Na",
+      "copies": 3,
+      "unique_ids": [
+        "97917_napf_tcr-ID-1",
+        "144579_napf_tcr-ID-1",
+        "244262_napf_tcr-ID-1"
+      ]
+    },
+    {
+      "node_id": "451",
+      "name": "97917_napf_spinstell-ID-1",
+      "ion_class": "Na",
+      "copies": 3,
+      "unique_ids": [
+        "97917_napf_spinstell-ID-1",
+        "144579_napf_spinstell-ID-1",
+        "244262_napf_spinstell-ID-1"
+      ]
+    },
+    {
+      "node_id": "455",
+      "name": "144579_naf_tcr-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "144579_naf_tcr-ID-1",
+        "244262_naf_tcr-ID-1"
+      ]
+    },
+    {
+      "node_id": "457",
+      "name": "144579_naf-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "144579_naf-ID-1"
+      ]
+    },
+    {
+      "node_id": "458",
+      "name": "144579_nap-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "144579_nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "465",
+      "name": "97917_napf-ID-1",
+      "ion_class": "Na",
+      "copies": 3,
+      "unique_ids": [
+        "97917_napf-ID-1",
+        "144579_napf-ID-1",
+        "244262_napf-ID-1"
+      ]
+    },
+    {
+      "node_id": "486",
+      "name": "144541_na3n-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "144541_na3n-ID-1"
+      ]
+    },
+    {
+      "node_id": "487",
+      "name": "144541_naxn-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "144541_naxn-ID-1"
+      ]
+    },
+    {
+      "node_id": "499",
+      "name": "168310_naf-ID-1",
+      "ion_class": "Na",
+      "copies": 4,
+      "unique_ids": [
+        "168310_naf-ID-1",
+        "155057_naf-ID-1",
+        "237595_naf-ID-1",
+        "237595_naf-ID-2"
+      ]
+    },
+    {
+      "node_id": "500",
+      "name": "82849_nap-ID-1",
+      "ion_class": "Na",
+      "copies": 5,
+      "unique_ids": [
+        "82849_nap-ID-1",
+        "168310_nap-ID-1",
+        "155057_nap-ID-1",
+        "237595_nap-ID-1",
+        "237595_nap-ID-2"
+      ]
+    },
+    {
+      "node_id": "510",
+      "name": "2796_na3-ID-1",
+      "ion_class": "Na",
+      "copies": 10,
+      "unique_ids": [
+        "2796_na3-ID-1",
+        "3167_na3-ID-1",
+        "7386_na3-ID-1",
+        "19696_na3-ID-1",
+        "145672_migliore_na3-ID-1",
+        "144589_na3-ID-1",
+        "148646_na3-ID-1",
+        "187603_na3-ID-1",
+        "234241_na3-ID-1",
+        "244848_na3-ID-1"
+      ]
+    },
+    {
+      "node_id": "520",
+      "name": "113446_na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "113446_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "526",
+      "name": "113446_nap-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "113446_nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "554",
+      "name": "127995_naxn-ID-1",
+      "ion_class": "Na",
+      "copies": 4,
+      "unique_ids": [
+        "127995_naxn-ID-1",
+        "144570_naxn-ID-1",
+        "151681_naxn-ID-1",
+        "168591_naxn-ID-1"
+      ]
+    },
+    {
+      "node_id": "599",
+      "name": "20007_NaM99SL-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "20007_NaM99SL-ID-1",
+        "235052_migNa-ID-1"
+      ]
+    },
+    {
+      "node_id": "621",
+      "name": "222726_naslowcond2-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "222726_naslowcond2-ID-1"
+      ]
+    },
+    {
+      "node_id": "622",
+      "name": "222726_nafast2-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "222726_nafast2-ID-1"
+      ]
+    },
+    {
+      "node_id": "628",
+      "name": "136309_naf_Traub-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "136309_naf_Traub-ID-1"
+      ]
+    },
+    {
+      "node_id": "632",
+      "name": "136309_naf_Jonas-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "136309_naf_Jonas-ID-1"
+      ]
+    },
+    {
+      "node_id": "633",
+      "name": "136309_naf_Yu-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "136309_naf_Yu-ID-1"
+      ]
+    },
+    {
+      "node_id": "642",
+      "name": "169457_Nap_Et2-ID-1",
+      "ion_class": "Na",
+      "copies": 9,
+      "unique_ids": [
+        "169457_Nap_Et2-ID-1",
+        "187615_Nap_Et2-ID-1",
+        "237469_Nap_Et2-ID-2",
+        "187474_Nap_Et2-ID-2",
+        "187474_Nap_Et2-ID-3",
+        "237469_Nap_Et2-ID-1",
+        "187474_Nap_Et2-ID-1",
+        "249463_Nap_Et2-ID-1",
+        "267293_Nap_Et2-ID-1"
+      ]
+    },
+    {
+      "node_id": "643",
+      "name": "169457_NaTa_t-ID-1",
+      "ion_class": "Na",
+      "copies": 9,
+      "unique_ids": [
+        "169457_NaTa_t-ID-1",
+        "187615_NaTa_t-ID-1",
+        "237469_NaTa_t-ID-1",
+        "187474_NaTa_t-ID-1",
+        "187474_NaTa_t-ID-2",
+        "237469_NaTa_t-ID-2",
+        "187474_NaTa_t-ID-3",
+        "249463_NaTa_t-ID-1",
+        "267293_NaTa_t-ID-1"
+      ]
+    },
+    {
+      "node_id": "683",
+      "name": "144523_NaF-ID-1",
+      "ion_class": "Na",
+      "copies": 4,
+      "unique_ids": [
+        "144523_NaF-ID-1",
+        "150024_NaF-ID-1",
+        "185513_NaF-ID-1",
+        "267189_NaF-ID-1"
+      ]
+    },
+    {
+      "node_id": "684",
+      "name": "144523_NaP-ID-1",
+      "ion_class": "Na",
+      "copies": 4,
+      "unique_ids": [
+        "144523_NaP-ID-1",
+        "150024_NaP-ID-1",
+        "185513_NaP-ID-1",
+        "267189_NaP-ID-1"
+      ]
+    },
+    {
+      "node_id": "694",
+      "name": "101629_na3n-ID-1",
+      "ion_class": "Na",
+      "copies": 5,
+      "unique_ids": [
+        "101629_na3n-ID-1",
+        "137259_na3n-ID-1",
+        "181967_na3n-ID-1",
+        "223649_na3n-ID-1",
+        "229750_na3n-ID-1"
+      ]
+    },
+    {
+      "node_id": "698",
+      "name": "62284_B_NA-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "62284_B_NA-ID-1"
+      ]
+    },
+    {
+      "node_id": "710",
+      "name": "17664_NaF-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "17664_NaF-ID-1",
+        "149000_NaF-ID-1"
+      ]
+    },
+    {
+      "node_id": "711",
+      "name": "17664_NaP-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "17664_NaP-ID-1",
+        "149000_NaP-ID-1"
+      ]
+    },
+    {
+      "node_id": "742",
+      "name": "7907_naz_nature-ID-1",
+      "ion_class": "Na",
+      "copies": 6,
+      "unique_ids": [
+        "7907_naz_nature-ID-1",
+        "144553_naz_nature-ID-1",
+        "168858_naz_nature-ID-4",
+        "168858_naz_nature-ID-3",
+        "168858_naz_nature-ID-1",
+        "168858_naz_nature-ID-2"
+      ]
+    },
+    {
+      "node_id": "759",
+      "name": "18742_Na_cglc-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "18742_Na_cglc-ID-1"
+      ]
+    },
+    {
+      "node_id": "769",
+      "name": "119266_nap-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "119266_nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "780",
+      "name": "28316_Naaxon-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "28316_Naaxon-ID-1"
+      ]
+    },
+    {
+      "node_id": "781",
+      "name": "28316_Nadend-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "28316_Nadend-ID-1"
+      ]
+    },
+    {
+      "node_id": "785",
+      "name": "28316_Nasoma-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "28316_Nasoma-ID-1"
+      ]
+    },
+    {
+      "node_id": "798",
+      "name": "149100_Nap_Et2-ID-1",
+      "ion_class": "Na",
+      "copies": 74,
+      "unique_ids": [
+        "149100_Nap_Et2-ID-1",
+        "156780_Nap_Et2-ID-1",
+        "180373_Nap_Et2-ID-2",
+        "180373_Nap_Et2-ID-1",
+        "225311_Nap_Et2-ID-1",
+        "229276_Nap_Et2-ID-1",
+        "230326_Nap_Et2-ID-1",
+        "224923_Nap_Et2-ID-1",
+        "231427_Nap_Et2-ID-1",
+        "241165_Nap_Et2-ID-19",
+        "241165_Nap_Et2-ID-2",
+        "241165_Nap_Et2-ID-3",
+        "241165_Nap_Et2-ID-14",
+        "241165_Nap_Et2-ID-8",
+        "241165_Nap_Et2-ID-7",
+        "241165_Nap_Et2-ID-20",
+        "241165_Nap_Et2-ID-4",
+        "241165_Nap_Et2-ID-5",
+        "241165_Nap_Et2-ID-15",
+        "241165_Nap_Et2-ID-23",
+        "241165_Nap_Et2-ID-22",
+        "241165_Nap_Et2-ID-21",
+        "241165_Nap_Et2-ID-16",
+        "241165_Nap_Et2-ID-9",
+        "241165_Nap_Et2-ID-1",
+        "241165_Nap_Et2-ID-13",
+        "241165_Nap_Et2-ID-6",
+        "241165_Nap_Et2-ID-10",
+        "241165_Nap_Et2-ID-18",
+        "241165_Nap_Et2-ID-24",
+        "241165_Nap_Et2-ID-11",
+        "241165_Nap_Et2-ID-17",
+        "241165_Nap_Et2-ID-25",
+        "241165_Nap_Et2-ID-12",
+        "251493_Nap_Et2-ID-1",
+        "261460_Nap_Et2-ID-1",
+        "260971_Nap_Et2-ID-2",
+        "260971_Nap_Et2-ID-1",
+        "260971_Nap_Et2-ID-3",
+        "260971_Nap_Et2-ID-6",
+        "260971_Nap_Et2-ID-5",
+        "239145_Nap_Et2-ID-1",
+        "260971_Nap_Et2-ID-4",
+        "267067_Nap_Et2-ID-1",
+        "267067_Nap_Et2-ID-2",
+        "266851_Nap_Et2-ID-1",
+        "267691_Nap_Et2-ID-9",
+        "267691_Nap_Et2-ID-17",
+        "267691_Nap_Et2-ID-21",
+        "267691_Nap_Et2-ID-8",
+        "267691_Nap_Et2-ID-10",
+        "267691_Nap_Et2-ID-6",
+        "267691_Nap_Et2-ID-15",
+        "267691_Nap_Et2-ID-13",
+        "267691_Nap_Et2-ID-7",
+        "267691_Nap_Et2-ID-16",
+        "267691_Nap_Et2-ID-14",
+        "267691_Nap_Et2-ID-2",
+        "267691_Nap_Et2-ID-18",
+        "267691_Nap_Et2-ID-12",
+        "267691_Nap_Et2-ID-11",
+        "267691_Nap_Et2-ID-20",
+        "267691_Nap_Et2-ID-5",
+        "267691_Nap_Et2-ID-1",
+        "267691_Nap_Et2-ID-3",
+        "267691_Nap_Et2-ID-23",
+        "267691_Nap_Et2-ID-22",
+        "267691_Nap_Et2-ID-25",
+        "267691_Nap_Et2-ID-24",
+        "267691_Nap_Et2-ID-4",
+        "267384_Nap_Et2-ID-1",
+        "267691_Nap_Et2-ID-19",
+        "267511_Nap_Et2-ID-1",
+        "249705_Nap_Et2-ID-1"
+      ]
+    },
+    {
+      "node_id": "802",
+      "name": "180373_NaTa_t-ID-1",
+      "ion_class": "Na",
+      "copies": 73,
+      "unique_ids": [
+        "180373_NaTa_t-ID-1",
+        "180373_NaTa_t-ID-2",
+        "156780_NaTa_t-ID-1",
+        "225311_NaTa_t-ID-1",
+        "224923_NaTa_t-ID-1",
+        "231427_NaTa_t-ID-1",
+        "229276_NaTa_t-ID-1",
+        "230326_NaTa_t-ID-1",
+        "241165_NaTa_t-ID-10",
+        "241165_NaTa_t-ID-13",
+        "241165_NaTa_t-ID-21",
+        "241165_NaTa_t-ID-25",
+        "241165_NaTa_t-ID-7",
+        "241165_NaTa_t-ID-9",
+        "241165_NaTa_t-ID-24",
+        "241165_NaTa_t-ID-12",
+        "241165_NaTa_t-ID-20",
+        "241165_NaTa_t-ID-5",
+        "241165_NaTa_t-ID-16",
+        "241165_NaTa_t-ID-19",
+        "241165_NaTa_t-ID-6",
+        "241165_NaTa_t-ID-3",
+        "241165_NaTa_t-ID-23",
+        "241165_NaTa_t-ID-22",
+        "241165_NaTa_t-ID-14",
+        "241165_NaTa_t-ID-18",
+        "241165_NaTa_t-ID-2",
+        "241165_NaTa_t-ID-11",
+        "241165_NaTa_t-ID-8",
+        "241165_NaTa_t-ID-15",
+        "241165_NaTa_t-ID-4",
+        "241165_NaTa_t-ID-1",
+        "241165_NaTa_t-ID-17",
+        "251493_NaTa_t-ID-1",
+        "260971_NaTa_t-ID-4",
+        "260971_NaTa_t-ID-3",
+        "260971_NaTa_t-ID-1",
+        "239145_NaTa_t-ID-1",
+        "260971_NaTa_t-ID-5",
+        "261460_NaTa_t-ID-1",
+        "260971_NaTa_t-ID-6",
+        "260971_NaTa_t-ID-2",
+        "266851_NaTa_t-ID-1",
+        "267067_NaTa_t-ID-2",
+        "267067_NaTa_t-ID-1",
+        "267691_NaTa_t-ID-17",
+        "267691_NaTa_t-ID-8",
+        "267691_NaTa_t-ID-1",
+        "267691_NaTa_t-ID-7",
+        "267691_NaTa_t-ID-14",
+        "267691_NaTa_t-ID-11",
+        "267691_NaTa_t-ID-21",
+        "267691_NaTa_t-ID-13",
+        "267691_NaTa_t-ID-22",
+        "267691_NaTa_t-ID-23",
+        "267691_NaTa_t-ID-5",
+        "267691_NaTa_t-ID-18",
+        "267691_NaTa_t-ID-2",
+        "267691_NaTa_t-ID-24",
+        "267691_NaTa_t-ID-15",
+        "267691_NaTa_t-ID-25",
+        "267691_NaTa_t-ID-20",
+        "267384_NaTa_t-ID-1",
+        "267691_NaTa_t-ID-4",
+        "267691_NaTa_t-ID-9",
+        "267691_NaTa_t-ID-10",
+        "267691_NaTa_t-ID-6",
+        "267691_NaTa_t-ID-16",
+        "267691_NaTa_t-ID-19",
+        "267691_NaTa_t-ID-3",
+        "267691_NaTa_t-ID-12",
+        "249705_NaTa_t-ID-1",
+        "267511_NaTa_t-ID-1"
+      ]
+    },
+    {
+      "node_id": "867",
+      "name": "149739_Naxn-ID-1",
+      "ion_class": "Na",
+      "copies": 3,
+      "unique_ids": [
+        "149739_Naxn-ID-1",
+        "232097_Naxn-ID-1",
+        "244687_naxn-ID-1"
+      ]
+    },
+    {
+      "node_id": "902",
+      "name": "189154_nax-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "189154_nax-ID-1",
+        "185858_nax-ID-1"
+      ]
+    },
+    {
+      "node_id": "922",
+      "name": "120910_nadend-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "120910_nadend-ID-1"
+      ]
+    },
+    {
+      "node_id": "929",
+      "name": "139657_sjg_na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "139657_sjg_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "940",
+      "name": "102288_Naaxon-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "102288_Naaxon-ID-1",
+        "182797_Naaxon-ID-1"
+      ]
+    },
+    {
+      "node_id": "942",
+      "name": "102288_Nadend-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "102288_Nadend-ID-1",
+        "182797_Nadend-ID-1"
+      ]
+    },
+    {
+      "node_id": "949",
+      "name": "102288_Nasoma-ID-1",
+      "ion_class": "Na",
+      "copies": 7,
+      "unique_ids": [
+        "102288_Nasoma-ID-1",
+        "182797_Nasoma-ID-1",
+        "223031_Nasoma-ID-2",
+        "223031_Nasoma-ID-1",
+        "223031_Nasoma-ID-4",
+        "223031_Nasoma-ID-3",
+        "223031_Nasoma-ID-5"
+      ]
+    },
+    {
+      "node_id": "970",
+      "name": "147218_rsg-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "147218_rsg-ID-1"
+      ]
+    },
+    {
+      "node_id": "977",
+      "name": "97860_nahh-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "97860_nahh-ID-1"
+      ]
+    },
+    {
+      "node_id": "993",
+      "name": "123897_na16-ID-1",
+      "ion_class": "Na",
+      "copies": 4,
+      "unique_ids": [
+        "123897_na16-ID-1",
+        "237594_na16-ID-1",
+        "206398_na16-ID-1",
+        "241160_na16-ID-1"
+      ]
+    },
+    {
+      "node_id": "996",
+      "name": "123897_na12-ID-1",
+      "ion_class": "Na",
+      "copies": 4,
+      "unique_ids": [
+        "123897_na12-ID-1",
+        "206398_na12-ID-1",
+        "237594_na12-ID-1",
+        "241160_na12-ID-1"
+      ]
+    },
+    {
+      "node_id": "997",
+      "name": "123897_na-ID-1",
+      "ion_class": "Na",
+      "copies": 4,
+      "unique_ids": [
+        "123897_na-ID-1",
+        "237594_na-ID-1",
+        "206398_na-ID-1",
+        "241160_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "1011",
+      "name": "168310_nafcr-ID-1",
+      "ion_class": "Na",
+      "copies": 7,
+      "unique_ids": [
+        "168310_nafcr-ID-1",
+        "237595_nafcr-ID-2",
+        "237595_nafcr-ID-1",
+        "246546_nafcr-ID-1",
+        "256311_nafcr-ID-1",
+        "260015_nafcr-ID-1",
+        "267511_nafcr-ID-1"
+      ]
+    },
+    {
+      "node_id": "1026",
+      "name": "115356_Nap-ID-1",
+      "ion_class": "Na",
+      "copies": 3,
+      "unique_ids": [
+        "115356_Nap-ID-1",
+        "246546_nap-ID-1",
+        "256311_nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "1060",
+      "name": "2488_na-ID-1",
+      "ion_class": "Na",
+      "copies": 7,
+      "unique_ids": [
+        "2488_na-ID-1",
+        "135839_na-ID-1",
+        "195667_na-ID-1",
+        "266802_0_na-ID-5",
+        "266802_0_na-ID-4",
+        "266802_0_na-ID-3",
+        "266802_0_na-ID-2"
+      ]
+    },
+    {
+      "node_id": "1075",
+      "name": "182988_dr-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "182988_dr-ID-1"
+      ]
+    },
+    {
+      "node_id": "1077",
+      "name": "182988_sdsr-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "182988_sdsr-ID-1"
+      ]
+    },
+    {
+      "node_id": "1085",
+      "name": "87454_na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "87454_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "1095",
+      "name": "2798_nans-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "2798_nans-ID-1"
+      ]
+    },
+    {
+      "node_id": "1102",
+      "name": "82784_Naf-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "82784_Naf-ID-1"
+      ]
+    },
+    {
+      "node_id": "1103",
+      "name": "82784_Nap-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "82784_Nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "1104",
+      "name": "82784_NafIN-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "82784_NafIN-ID-1"
+      ]
+    },
+    {
+      "node_id": "1107",
+      "name": "82784_NapDA-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "82784_NapDA-ID-1"
+      ]
+    },
+    {
+      "node_id": "1122",
+      "name": "168858_naf-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "168858_naf-ID-1"
+      ]
+    },
+    {
+      "node_id": "1123",
+      "name": "168858_nap-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "168858_nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "1141",
+      "name": "150691_ina-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "150691_ina-ID-1"
+      ]
+    },
+    {
+      "node_id": "1149",
+      "name": "2796_nax-ID-1",
+      "ion_class": "Na",
+      "copies": 9,
+      "unique_ids": [
+        "2796_nax-ID-1",
+        "7386_nax-ID-1",
+        "19696_nax-ID-1",
+        "121259_nax-ID-1",
+        "145672_migliore_nax-ID-1",
+        "150551_nax-ID-1",
+        "144589_nax-ID-1",
+        "148646_nax-ID-1",
+        "244848_nax-ID-1"
+      ]
+    },
+    {
+      "node_id": "1154",
+      "name": "150239_Nap-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "150239_Nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "1170",
+      "name": "53876_naleak-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "53876_naleak-ID-1"
+      ]
+    },
+    {
+      "node_id": "1173",
+      "name": "53876_na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "53876_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "1181",
+      "name": "53876_nap-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "53876_nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "1191",
+      "name": "2937_namir-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "2937_namir-ID-1"
+      ]
+    },
+    {
+      "node_id": "1200",
+      "name": "184054_na3-ID-1",
+      "ion_class": "Na",
+      "copies": 4,
+      "unique_ids": [
+        "184054_na3-ID-1",
+        "187610_na3-ID-1",
+        "237728_na3-ID-1",
+        "258867_na3-ID-1"
+      ]
+    },
+    {
+      "node_id": "1207",
+      "name": "20212_na-ID-1",
+      "ion_class": "Na",
+      "copies": 9,
+      "unique_ids": [
+        "20212_na-ID-1",
+        "83344_na-ID-1",
+        "108459_na-ID-1",
+        "135898_na-ID-1",
+        "143442_na-ID-1",
+        "138321_na-ID-1",
+        "266844_na-ID-2",
+        "266844_na-ID-1",
+        "266844_na-ID-3"
+      ]
+    },
+    {
+      "node_id": "1228",
+      "name": "223955_na8st-ID-21",
+      "ion_class": "Na",
+      "copies": 3,
+      "unique_ids": [
+        "223955_na8st-ID-21",
+        "267067_na8st-ID-2",
+        "267067_na8st-ID-1"
+      ]
+    },
+    {
+      "node_id": "1239",
+      "name": "112685_Golgi_Na-ID-1",
+      "ion_class": "Na",
+      "copies": 4,
+      "unique_ids": [
+        "112685_Golgi_Na-ID-1",
+        "127021_Golgi_Na-ID-1",
+        "139656_Golgi_Na-ID-1",
+        "266578_Golgi_Na-ID-1"
+      ]
+    },
+    {
+      "node_id": "1241",
+      "name": "112685_Golgi_NaR-ID-1",
+      "ion_class": "Na",
+      "copies": 3,
+      "unique_ids": [
+        "112685_Golgi_NaR-ID-1",
+        "127021_Golgi_NaR-ID-1",
+        "139656_Golgi_NaR-ID-1"
+      ]
+    },
+    {
+      "node_id": "1242",
+      "name": "112685_Golgi_NaP-ID-1",
+      "ion_class": "Na",
+      "copies": 3,
+      "unique_ids": [
+        "112685_Golgi_NaP-ID-1",
+        "127021_Golgi_NaP-ID-1",
+        "139656_Golgi_NaP-ID-1"
+      ]
+    },
+    {
+      "node_id": "1259",
+      "name": "116835_GRC_NA-ID-1",
+      "ion_class": "Na",
+      "copies": 3,
+      "unique_ids": [
+        "116835_GRC_NA-ID-1",
+        "139656_GRC_NA-ID-1",
+        "139883_GRC_NA-ID-1"
+      ]
+    },
+    {
+      "node_id": "1275",
+      "name": "144450_nap-ID-1",
+      "ion_class": "Na",
+      "copies": 5,
+      "unique_ids": [
+        "144450_nap-ID-1",
+        "143719_nap-ID-1",
+        "147757_nap-ID-1",
+        "151126_nap-ID-1",
+        "256388_nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "1293",
+      "name": "151126_nax-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "151126_nax-ID-1",
+        "256388_nax-ID-1"
+      ]
+    },
+    {
+      "node_id": "1298",
+      "name": "151126_na3-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "151126_na3-ID-1",
+        "256388_na3-ID-1"
+      ]
+    },
+    {
+      "node_id": "1301",
+      "name": "151126_na3notrunk-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "151126_na3notrunk-ID-1",
+        "256388_na3notrunk-ID-1"
+      ]
+    },
+    {
+      "node_id": "1302",
+      "name": "151126_na3dend-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "151126_na3dend-ID-1",
+        "256388_na3dend-ID-1"
+      ]
+    },
+    {
+      "node_id": "1320",
+      "name": "149174_nad-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "149174_nad-ID-1"
+      ]
+    },
+    {
+      "node_id": "1325",
+      "name": "128559_iNaP-ID-1",
+      "ion_class": "Na",
+      "copies": 4,
+      "unique_ids": [
+        "128559_iNaP-ID-1",
+        "168414_iNaP-ID-1",
+        "267056_iNaP-ID-1",
+        "267666_iNaP-ID-1"
+      ]
+    },
+    {
+      "node_id": "1343",
+      "name": "2730_nagran-ID-1",
+      "ion_class": "Na",
+      "copies": 3,
+      "unique_ids": [
+        "2730_nagran-ID-1",
+        "64229_nagran-ID-1",
+        "116094_nagran-ID-1"
+      ]
+    },
+    {
+      "node_id": "1349",
+      "name": "2733_nafast-ID-1",
+      "ion_class": "Na",
+      "copies": 6,
+      "unique_ids": [
+        "2733_nafast-ID-1",
+        "2487_nafast-ID-1",
+        "2730_nafast-ID-1",
+        "64229_nafast-ID-1",
+        "116094_nafast-ID-2",
+        "116094_nafast-ID-1"
+      ]
+    },
+    {
+      "node_id": "1378",
+      "name": "153280_ch_Navp-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "153280_ch_Navp-ID-1"
+      ]
+    },
+    {
+      "node_id": "1389",
+      "name": "3483_nargc-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "3483_nargc-ID-1"
+      ]
+    },
+    {
+      "node_id": "1402",
+      "name": "185355_ichan2-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "185355_ichan2-ID-1"
+      ]
+    },
+    {
+      "node_id": "1471",
+      "name": "180789_narsg-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "180789_narsg-ID-1",
+        "266578_narsg-ID-1"
+      ]
+    },
+    {
+      "node_id": "1480",
+      "name": "180789_mypumpsoma-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "180789_mypumpsoma-ID-1",
+        "266578_mypumpsoma-ID-1"
+      ]
+    },
+    {
+      "node_id": "1485",
+      "name": "180789_mypump-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "180789_mypump-ID-1",
+        "266578_mypump-ID-1"
+      ]
+    },
+    {
+      "node_id": "1516",
+      "name": "37819_na-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "37819_na-ID-1",
+        "260015_naz-ID-1"
+      ]
+    },
+    {
+      "node_id": "1517",
+      "name": "195615_nax_BS-ID-1",
+      "ion_class": "Na",
+      "copies": 5,
+      "unique_ids": [
+        "195615_nax_BS-ID-1",
+        "266851_nax_BS-ID-2",
+        "266851_nax_BS-ID-1",
+        "260015_nax_BS-ID-1",
+        "267511_nax_BS-ID-1"
+      ]
+    },
+    {
+      "node_id": "1615",
+      "name": "121060_chan_NaP-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "121060_chan_NaP-ID-1",
+        "267508_chan_NaP-ID-1"
+      ]
+    },
+    {
+      "node_id": "1616",
+      "name": "121060_chan_NaF-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "121060_chan_NaF-ID-1",
+        "267508_chan_NaF-ID-1"
+      ]
+    },
+    {
+      "node_id": "1637",
+      "name": "116096_na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "116096_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "1665",
+      "name": "85112_nav1p9-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "85112_nav1p9-ID-1"
+      ]
+    },
+    {
+      "node_id": "1666",
+      "name": "85112_nav1p8-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "85112_nav1p8-ID-1"
+      ]
+    },
+    {
+      "node_id": "1667",
+      "name": "85112_nattxs-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "85112_nattxs-ID-1"
+      ]
+    },
+    {
+      "node_id": "1668",
+      "name": "85112_nap-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "85112_nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "1673",
+      "name": "26997_naf-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "26997_naf-ID-1",
+        "33975_naf-ID-1"
+      ]
+    },
+    {
+      "node_id": "1680",
+      "name": "144089_naf-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "144089_naf-ID-1"
+      ]
+    },
+    {
+      "node_id": "1690",
+      "name": "143635_na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "143635_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "1751",
+      "name": "232813_na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "232813_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "1762",
+      "name": "114394_na-ID-1",
+      "ion_class": "Na",
+      "copies": 3,
+      "unique_ids": [
+        "114394_na-ID-1",
+        "168148_na-ID-1",
+        "266851_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "1763",
+      "name": "114394_nax-ID-1",
+      "ion_class": "Na",
+      "copies": 3,
+      "unique_ids": [
+        "114394_nax-ID-1",
+        "168148_nax-ID-1",
+        "266851_nax-ID-1"
+      ]
+    },
+    {
+      "node_id": "1808",
+      "name": "8210_na3h5-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "8210_na3h5-ID-1"
+      ]
+    },
+    {
+      "node_id": "1809",
+      "name": "187473_nahh-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "187473_nahh-ID-1"
+      ]
+    },
+    {
+      "node_id": "1820",
+      "name": "112834_naf-ID-1",
+      "ion_class": "Na",
+      "copies": 3,
+      "unique_ids": [
+        "112834_naf-ID-1",
+        "126640_naf-ID-1",
+        "150284_naf-ID-1"
+      ]
+    },
+    {
+      "node_id": "1887",
+      "name": "48332_rsg-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "48332_rsg-ID-1",
+        "155735_rsg-ID-1"
+      ]
+    },
+    {
+      "node_id": "1899",
+      "name": "155735_NaF-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "155735_NaF-ID-1",
+        "206364_NaF-ID-1"
+      ]
+    },
+    {
+      "node_id": "1900",
+      "name": "155735_NaP-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "155735_NaP-ID-1",
+        "206364_NaP-ID-1"
+      ]
+    },
+    {
+      "node_id": "1927",
+      "name": "44050_na3s-ID-1",
+      "ion_class": "Na",
+      "copies": 3,
+      "unique_ids": [
+        "44050_na3s-ID-1",
+        "97874_na3s-ID-1",
+        "147538_na3s-ID-1"
+      ]
+    },
+    {
+      "node_id": "1932",
+      "name": "114359_na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "114359_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "1935",
+      "name": "3454_nach-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "3454_nach-ID-1"
+      ]
+    },
+    {
+      "node_id": "1943",
+      "name": "156120_Na_pyr_bk-ID-1",
+      "ion_class": "Na",
+      "copies": 7,
+      "unique_ids": [
+        "156120_Na_pyr_bk-ID-1",
+        "156120_Na_pyr_bk-ID-2",
+        "155705_Na_pyr_bk-ID-1",
+        "155705_Na_pyr_bk-ID-2",
+        "186977_Na_pyr_bk-ID-2",
+        "186977_Na_pyr_bk-ID-1",
+        "186977_Na_pyr_bk-ID-3"
+      ]
+    },
+    {
+      "node_id": "2003",
+      "name": "126814_na3n-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "126814_na3n-ID-1",
+        "168874_na3n-ID-1"
+      ]
+    },
+    {
+      "node_id": "2065",
+      "name": "53451_na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "53451_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "2073",
+      "name": "226010_NaP-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "226010_NaP-ID-1"
+      ]
+    },
+    {
+      "node_id": "2077",
+      "name": "226010_NaT-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "226010_NaT-ID-1"
+      ]
+    },
+    {
+      "node_id": "2091",
+      "name": "139421_CA1ina-ID-1",
+      "ion_class": "Na",
+      "copies": 4,
+      "unique_ids": [
+        "139421_CA1ina-ID-1",
+        "151282_CA3ina-ID-1",
+        "186768_CA1ina-ID-1",
+        "258738_CA1ina-ID-1"
+      ]
+    },
+    {
+      "node_id": "2095",
+      "name": "139421_nafbwb-ID-1",
+      "ion_class": "Na",
+      "copies": 5,
+      "unique_ids": [
+        "139421_nafbwb-ID-1",
+        "151282_nafbwb-ID-1",
+        "186768_nafbwb-ID-1",
+        "185858_nafbwb-ID-1",
+        "258738_nafbwb-ID-1"
+      ]
+    },
+    {
+      "node_id": "2102",
+      "name": "135902_nafpr-ID-1",
+      "ion_class": "Na",
+      "copies": 7,
+      "unique_ids": [
+        "135902_nafpr-ID-1",
+        "135903_nafpr-ID-1",
+        "139421_nafpr-ID-1",
+        "182134_nafpr-ID-1",
+        "186768_nafpr-ID-1",
+        "230861_nafpr-ID-1",
+        "258738_nafpr-ID-1"
+      ]
+    },
+    {
+      "node_id": "2104",
+      "name": "135902_nafolmkop-ID-1",
+      "ion_class": "Na",
+      "copies": 7,
+      "unique_ids": [
+        "135902_nafolmkop-ID-1",
+        "135903_nafolmkop-ID-1",
+        "139421_nafolmkop-ID-1",
+        "186768_nafolmkop-ID-1",
+        "182134_nafolmkop-ID-1",
+        "230861_nafolmkop-ID-1",
+        "258738_nafolmkop-ID-1"
+      ]
+    },
+    {
+      "node_id": "2116",
+      "name": "135902_nafpyrkop-ID-1",
+      "ion_class": "Na",
+      "copies": 7,
+      "unique_ids": [
+        "135902_nafpyrkop-ID-1",
+        "139421_nafpyrkop-ID-1",
+        "135903_nafpyrkop-ID-1",
+        "182134_nafpyrkop-ID-1",
+        "186768_nafpyrkop-ID-1",
+        "230861_nafpyrkop-ID-1",
+        "258738_nafpyrkop-ID-1"
+      ]
+    },
+    {
+      "node_id": "2149",
+      "name": "64229_na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "64229_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "2159",
+      "name": "64229_nap-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "64229_nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "2171",
+      "name": "64229_na-ID-2",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "64229_na-ID-2"
+      ]
+    },
+    {
+      "node_id": "2176",
+      "name": "64229_nap-ID-2",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "64229_nap-ID-2"
+      ]
+    },
+    {
+      "node_id": "2194",
+      "name": "149739_NaP-ID-1",
+      "ion_class": "Na",
+      "copies": 3,
+      "unique_ids": [
+        "149739_NaP-ID-1",
+        "183300_NaP-ID-1",
+        "232097_NaP-ID-1"
+      ]
+    },
+    {
+      "node_id": "2199",
+      "name": "149739_nafast-ID-1",
+      "ion_class": "Na",
+      "copies": 3,
+      "unique_ids": [
+        "149739_nafast-ID-1",
+        "183300_nafast-ID-1",
+        "232097_nafast-ID-1"
+      ]
+    },
+    {
+      "node_id": "2236",
+      "name": "138273_INaSM-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "138273_INaSM-ID-1"
+      ]
+    },
+    {
+      "node_id": "2255",
+      "name": "153574_nafast-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "153574_nafast-ID-1"
+      ]
+    },
+    {
+      "node_id": "2281",
+      "name": "125152_NapIn-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "125152_NapIn-ID-1",
+        "123927_NapIn-ID-1"
+      ]
+    },
+    {
+      "node_id": "2286",
+      "name": "125152_Nap-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "125152_Nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "2287",
+      "name": "115356_na3-ID-1",
+      "ion_class": "Na",
+      "copies": 3,
+      "unique_ids": [
+        "115356_na3-ID-1",
+        "123927_na3-ID-1",
+        "125152_na3-ID-1"
+      ]
+    },
+    {
+      "node_id": "2289",
+      "name": "115356_naxmig-ID-1",
+      "ion_class": "Na",
+      "copies": 3,
+      "unique_ids": [
+        "115356_naxmig-ID-1",
+        "125152_naxmig-ID-1",
+        "123927_naxmig-ID-1"
+      ]
+    },
+    {
+      "node_id": "2295",
+      "name": "151443_Naf_So-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "151443_Naf_So-ID-1"
+      ]
+    },
+    {
+      "node_id": "2298",
+      "name": "151443_Naf_IS-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "151443_Naf_IS-ID-1"
+      ]
+    },
+    {
+      "node_id": "2299",
+      "name": "151443_Nap-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "151443_Nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "2302",
+      "name": "151443_Nap_No-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "151443_Nap_No-ID-1"
+      ]
+    },
+    {
+      "node_id": "2332",
+      "name": "135902_CA1ina-ID-1",
+      "ion_class": "Na",
+      "copies": 4,
+      "unique_ids": [
+        "135902_CA1ina-ID-1",
+        "135903_CA1ina-ID-1",
+        "182134_ca1ina-ID-1",
+        "230861_ca1ina-ID-1"
+      ]
+    },
+    {
+      "node_id": "2335",
+      "name": "135902_nafbwb-ID-1",
+      "ion_class": "Na",
+      "copies": 4,
+      "unique_ids": [
+        "135902_nafbwb-ID-1",
+        "135903_nafbwb-ID-1",
+        "182134_nafbwb-ID-1",
+        "230861_nafbwb-ID-1"
+      ]
+    },
+    {
+      "node_id": "2336",
+      "name": "135902_na3n-ID-1",
+      "ion_class": "Na",
+      "copies": 4,
+      "unique_ids": [
+        "135902_na3n-ID-1",
+        "135903_na3n-ID-1",
+        "182134_na3n-ID-1",
+        "230861_na3n-ID-1"
+      ]
+    },
+    {
+      "node_id": "2355",
+      "name": "46839_grg_nar-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "46839_grg_nar-ID-1"
+      ]
+    },
+    {
+      "node_id": "2356",
+      "name": "46839_grc_pna-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "46839_grc_pna-ID-1"
+      ]
+    },
+    {
+      "node_id": "2360",
+      "name": "46839_grg_na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "46839_grg_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "2367",
+      "name": "143671_na3rp-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "143671_na3rp-ID-1",
+        "180370_na3rp-ID-1"
+      ]
+    },
+    {
+      "node_id": "2370",
+      "name": "143671_naps-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "143671_naps-ID-1",
+        "180370_naps-ID-1"
+      ]
+    },
+    {
+      "node_id": "2403",
+      "name": "223649_nafast-ID-2",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "223649_nafast-ID-2"
+      ]
+    },
+    {
+      "node_id": "2411",
+      "name": "150288_nainter-ID-1",
+      "ion_class": "Na",
+      "copies": 3,
+      "unique_ids": [
+        "150288_nainter-ID-1",
+        "223649_nainter-ID-1",
+        "247968_nainter-ID-1"
+      ]
+    },
+    {
+      "node_id": "2416",
+      "name": "223649_naxDA-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "223649_naxDA-ID-1"
+      ]
+    },
+    {
+      "node_id": "2418",
+      "name": "223649_na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "223649_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "2419",
+      "name": "223649_nax-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "223649_nax-ID-1"
+      ]
+    },
+    {
+      "node_id": "2437",
+      "name": "223649_na3DA-ID-2",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "223649_na3DA-ID-2",
+        "247968_na3DA-ID-1"
+      ]
+    },
+    {
+      "node_id": "2438",
+      "name": "223649_nap-ID-2",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "223649_nap-ID-2",
+        "247968_nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "2439",
+      "name": "223649_na3-ID-2",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "223649_na3-ID-2",
+        "247968_na3-ID-1"
+      ]
+    },
+    {
+      "node_id": "2444",
+      "name": "223649_nat-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "223649_nat-ID-1",
+        "247968_nat-ID-1"
+      ]
+    },
+    {
+      "node_id": "2448",
+      "name": "223649_na3n-ID-2",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "223649_na3n-ID-2"
+      ]
+    },
+    {
+      "node_id": "2470",
+      "name": "146030_NaxSH0_ChannelML-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "146030_NaxSH0_ChannelML-ID-1"
+      ]
+    },
+    {
+      "node_id": "2480",
+      "name": "146030_NaxSH10_ChannelML-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "146030_NaxSH10_ChannelML-ID-1"
+      ]
+    },
+    {
+      "node_id": "2493",
+      "name": "183949_na3rp-ID-1",
+      "ion_class": "Na",
+      "copies": 3,
+      "unique_ids": [
+        "183949_na3rp-ID-1",
+        "217882_na3rp-ID-1",
+        "239582_na3rp-ID-1"
+      ]
+    },
+    {
+      "node_id": "2499",
+      "name": "123453_Nav11-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "123453_Nav11-ID-1"
+      ]
+    },
+    {
+      "node_id": "2526",
+      "name": "128079_naxkole-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "128079_naxkole-ID-1"
+      ]
+    },
+    {
+      "node_id": "2528",
+      "name": "128079_HHrates-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "128079_HHrates-ID-1"
+      ]
+    },
+    {
+      "node_id": "2529",
+      "name": "128079_na8st-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "128079_na8st-ID-1"
+      ]
+    },
+    {
+      "node_id": "2530",
+      "name": "128079_nakole-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "128079_nakole-ID-1"
+      ]
+    },
+    {
+      "node_id": "2556",
+      "name": "138082_FVNaG3e-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "138082_FVNaG3e-ID-1"
+      ]
+    },
+    {
+      "node_id": "2557",
+      "name": "138082_WTNaG3e-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "138082_WTNaG3e-ID-1"
+      ]
+    },
+    {
+      "node_id": "2579",
+      "name": "115356_NaIn-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "115356_NaIn-ID-1"
+      ]
+    },
+    {
+      "node_id": "2584",
+      "name": "183949_napsi-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "183949_napsi-ID-1",
+        "217882_napsi-ID-1"
+      ]
+    },
+    {
+      "node_id": "2588",
+      "name": "151825_na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "151825_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "2604",
+      "name": "64195_na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "64195_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "2606",
+      "name": "64195_na_stochastic-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "64195_na_stochastic-ID-1"
+      ]
+    },
+    {
+      "node_id": "2655",
+      "name": "114685_Na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "114685_Na-ID-1"
+      ]
+    },
+    {
+      "node_id": "2657",
+      "name": "114685_NaL-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "114685_NaL-ID-1"
+      ]
+    },
+    {
+      "node_id": "2701",
+      "name": "52034_na-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "52034_na-ID-1",
+        "113732_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "2704",
+      "name": "52034_nap-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "52034_nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "2720",
+      "name": "19591_Na_chan-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "19591_Na_chan-ID-1"
+      ]
+    },
+    {
+      "node_id": "2732",
+      "name": "3793_na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "3793_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "2744",
+      "name": "144385_na-ID-1",
+      "ion_class": "Na",
+      "copies": 3,
+      "unique_ids": [
+        "144385_na-ID-1",
+        "266802_0_na-ID-1",
+        "266802_0_na-ID-6"
+      ]
+    },
+    {
+      "node_id": "2773",
+      "name": "125385_snap-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "125385_snap-ID-1"
+      ]
+    },
+    {
+      "node_id": "2778",
+      "name": "125385_sna-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "125385_sna-ID-1"
+      ]
+    },
+    {
+      "node_id": "2803",
+      "name": "144526_nax8st-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "144526_nax8st-ID-1"
+      ]
+    },
+    {
+      "node_id": "2807",
+      "name": "144526_na8st-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "144526_na8st-ID-1"
+      ]
+    },
+    {
+      "node_id": "2882",
+      "name": "168310_nafcb-ID-1",
+      "ion_class": "Na",
+      "copies": 3,
+      "unique_ids": [
+        "168310_nafcb-ID-1",
+        "237595_nafcb-ID-2",
+        "237595_nafcb-ID-1"
+      ]
+    },
+    {
+      "node_id": "2892",
+      "name": "168310_nafin-ID-1",
+      "ion_class": "Na",
+      "copies": 3,
+      "unique_ids": [
+        "168310_nafin-ID-1",
+        "237595_nafin-ID-1",
+        "237595_nafin-ID-2"
+      ]
+    },
+    {
+      "node_id": "2904",
+      "name": "97917_naf2-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "97917_naf2-ID-1",
+        "244262_naf2-ID-1"
+      ]
+    },
+    {
+      "node_id": "2907",
+      "name": "97917_naf_tcr-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "97917_naf_tcr-ID-1"
+      ]
+    },
+    {
+      "node_id": "2908",
+      "name": "97917_naf-ID-1",
+      "ion_class": "Na",
+      "copies": 3,
+      "unique_ids": [
+        "97917_naf-ID-1",
+        "144401_naf-ID-1",
+        "244262_naf-ID-1"
+      ]
+    },
+    {
+      "node_id": "2909",
+      "name": "97917_nap-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "97917_nap-ID-1",
+        "244262_nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "2914",
+      "name": "62673_mcna1e-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "62673_mcna1e-ID-1"
+      ]
+    },
+    {
+      "node_id": "2915",
+      "name": "62673_nachansej-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "62673_nachansej-ID-1"
+      ]
+    },
+    {
+      "node_id": "2927",
+      "name": "184139_Na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "184139_Na-ID-1"
+      ]
+    },
+    {
+      "node_id": "2972",
+      "name": "146026_nap-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "146026_nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "2974",
+      "name": "146026_nat-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "146026_nat-ID-1"
+      ]
+    },
+    {
+      "node_id": "2990",
+      "name": "144520_ibg-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "144520_ibg-ID-1"
+      ]
+    },
+    {
+      "node_id": "2991",
+      "name": "144520_inaf-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "144520_inaf-ID-1"
+      ]
+    },
+    {
+      "node_id": "3007",
+      "name": "168148_Nap-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "168148_Nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "3078",
+      "name": "116956_emdna-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "116956_emdna-ID-1"
+      ]
+    },
+    {
+      "node_id": "3093",
+      "name": "207695_nadp-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "207695_nadp-ID-1"
+      ]
+    },
+    {
+      "node_id": "3107",
+      "name": "124063_A2hh_na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "124063_A2hh_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "3125",
+      "name": "93321_na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "93321_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "3148",
+      "name": "143719_nax-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "143719_nax-ID-1",
+        "147757_nax-ID-1"
+      ]
+    },
+    {
+      "node_id": "3151",
+      "name": "143719_na3-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "143719_na3-ID-1",
+        "147757_na3-ID-1"
+      ]
+    },
+    {
+      "node_id": "3154",
+      "name": "143719_na3notrunk-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "143719_na3notrunk-ID-1",
+        "147757_na3notrunk-ID-1"
+      ]
+    },
+    {
+      "node_id": "3155",
+      "name": "143719_na3dend-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "143719_na3dend-ID-1",
+        "147757_na3dend-ID-1"
+      ]
+    },
+    {
+      "node_id": "3160",
+      "name": "19746_CA1NaP-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "19746_CA1NaP-ID-1"
+      ]
+    },
+    {
+      "node_id": "3163",
+      "name": "234241_na3dend-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "234241_na3dend-ID-1"
+      ]
+    },
+    {
+      "node_id": "3164",
+      "name": "187603_na3shifted-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "187603_na3shifted-ID-1",
+        "234241_na3shifted-ID-1"
+      ]
+    },
+    {
+      "node_id": "3174",
+      "name": "153196_na16-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "153196_na16-ID-1"
+      ]
+    },
+    {
+      "node_id": "3177",
+      "name": "153196_na12-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "153196_na12-ID-1"
+      ]
+    },
+    {
+      "node_id": "3178",
+      "name": "153196_na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "153196_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "3248",
+      "name": "37819_naf-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "37819_naf-ID-1"
+      ]
+    },
+    {
+      "node_id": "3249",
+      "name": "37819_nap-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "37819_nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "3267",
+      "name": "105385_na1_gp-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "105385_na1_gp-ID-1",
+        "122329_na1_gp-ID-1"
+      ]
+    },
+    {
+      "node_id": "3272",
+      "name": "105385_na6_gp-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "105385_na6_gp-ID-1"
+      ]
+    },
+    {
+      "node_id": "3286",
+      "name": "53569_NaP-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "53569_NaP-ID-1"
+      ]
+    },
+    {
+      "node_id": "3296",
+      "name": "143100_NaF-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "143100_NaF-ID-1",
+        "267669_NaF-ID-1"
+      ]
+    },
+    {
+      "node_id": "3297",
+      "name": "143100_NaP-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "143100_NaP-ID-1"
+      ]
+    },
+    {
+      "node_id": "3302",
+      "name": "8115_INa_traub_shifted-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "8115_INa_traub_shifted-ID-1"
+      ]
+    },
+    {
+      "node_id": "3308",
+      "name": "187603_na3dend-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "187603_na3dend-ID-1"
+      ]
+    },
+    {
+      "node_id": "3348",
+      "name": "3342_na-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "3342_na-ID-1",
+        "136026_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "3377",
+      "name": "97863_ina-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "97863_ina-ID-1"
+      ]
+    },
+    {
+      "node_id": "3386",
+      "name": "98017_INap-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "98017_INap-ID-1"
+      ]
+    },
+    {
+      "node_id": "3410",
+      "name": "187604_ch_Navp-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "187604_ch_Navp-ID-1"
+      ]
+    },
+    {
+      "node_id": "3418",
+      "name": "187604_ch_Navaxonp-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "187604_ch_Navaxonp-ID-1"
+      ]
+    },
+    {
+      "node_id": "3437",
+      "name": "225080_nax-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "225080_nax-ID-1"
+      ]
+    },
+    {
+      "node_id": "3439",
+      "name": "225080_nas-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "225080_nas-ID-1"
+      ]
+    },
+    {
+      "node_id": "3448",
+      "name": "121259_nax2-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "121259_nax2-ID-1"
+      ]
+    },
+    {
+      "node_id": "3466",
+      "name": "144054_naxn-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "144054_naxn-ID-1",
+        "183300_naxn-ID-1"
+      ]
+    },
+    {
+      "node_id": "3481",
+      "name": "144490_nap-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "144490_nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "3512",
+      "name": "144007_LGMD_HH_Na_sf35-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "144007_LGMD_HH_Na_sf35-ID-1",
+        "144007_LGMD_HH_Na_sf35-ID-2"
+      ]
+    },
+    {
+      "node_id": "3520",
+      "name": "206400_na3n-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "206400_na3n-ID-1"
+      ]
+    },
+    {
+      "node_id": "3521",
+      "name": "206400_naxn-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "206400_naxn-ID-1"
+      ]
+    },
+    {
+      "node_id": "3524",
+      "name": "139654_fh-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "139654_fh-ID-1"
+      ]
+    },
+    {
+      "node_id": "3532",
+      "name": "140462_nmitral-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "140462_nmitral-ID-1"
+      ]
+    },
+    {
+      "node_id": "3551",
+      "name": "206267_GRC_NA-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "206267_GRC_NA-ID-1"
+      ]
+    },
+    {
+      "node_id": "3559",
+      "name": "185332_nat-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "185332_nat-ID-1",
+        "225086_nat-ID-1"
+      ]
+    },
+    {
+      "node_id": "3563",
+      "name": "185332_nadp-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "185332_nadp-ID-1"
+      ]
+    },
+    {
+      "node_id": "3568",
+      "name": "139653_Nap_Et2-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "139653_Nap_Et2-ID-1"
+      ]
+    },
+    {
+      "node_id": "3569",
+      "name": "139653_NaTa_t-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "139653_NaTa_t-ID-1"
+      ]
+    },
+    {
+      "node_id": "3574",
+      "name": "139653_NaTs2_t-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "139653_NaTs2_t-ID-1"
+      ]
+    },
+    {
+      "node_id": "3576",
+      "name": "64296_INaP-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "64296_INaP-ID-1"
+      ]
+    },
+    {
+      "node_id": "3578",
+      "name": "64296_nafast-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "64296_nafast-ID-1"
+      ]
+    },
+    {
+      "node_id": "3579",
+      "name": "225086_nadp-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "225086_nadp-ID-1"
+      ]
+    },
+    {
+      "node_id": "3589",
+      "name": "230137_Nav18_a-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "230137_Nav18_a-ID-1"
+      ]
+    },
+    {
+      "node_id": "3590",
+      "name": "230137_Nav19_a-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "230137_Nav19_a-ID-1"
+      ]
+    },
+    {
+      "node_id": "3591",
+      "name": "230137_Nav15_a-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "230137_Nav15_a-ID-1"
+      ]
+    },
+    {
+      "node_id": "3592",
+      "name": "230137_Nav17_a-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "230137_Nav17_a-ID-1"
+      ]
+    },
+    {
+      "node_id": "3593",
+      "name": "230137_Nav13_a-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "230137_Nav13_a-ID-1"
+      ]
+    },
+    {
+      "node_id": "3594",
+      "name": "230137_Nav11_a-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "230137_Nav11_a-ID-1"
+      ]
+    },
+    {
+      "node_id": "3595",
+      "name": "230137_Nav16_a-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "230137_Nav16_a-ID-1"
+      ]
+    },
+    {
+      "node_id": "3596",
+      "name": "230137_Nav14_a-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "230137_Nav14_a-ID-1"
+      ]
+    },
+    {
+      "node_id": "3597",
+      "name": "230137_Nav12_a-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "230137_Nav12_a-ID-1"
+      ]
+    },
+    {
+      "node_id": "3616",
+      "name": "140828_na-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "140828_na-ID-1",
+        "225075_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "3650",
+      "name": "125857_naf-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "125857_naf-ID-1"
+      ]
+    },
+    {
+      "node_id": "3651",
+      "name": "125857_nap-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "125857_nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "3685",
+      "name": "140038_late2-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "140038_late2-ID-1"
+      ]
+    },
+    {
+      "node_id": "3688",
+      "name": "140038_inter-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "140038_inter-ID-1"
+      ]
+    },
+    {
+      "node_id": "3692",
+      "name": "74298_Na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "74298_Na-ID-1"
+      ]
+    },
+    {
+      "node_id": "3694",
+      "name": "74298_NaL-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "74298_NaL-ID-1"
+      ]
+    },
+    {
+      "node_id": "3701",
+      "name": "156733_GRANULE_NA-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "156733_GRANULE_NA-ID-1"
+      ]
+    },
+    {
+      "node_id": "3711",
+      "name": "156733_GRANULE_NAR-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "156733_GRANULE_NAR-ID-1"
+      ]
+    },
+    {
+      "node_id": "3719",
+      "name": "156733_GRANULE_PNA-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "156733_GRANULE_PNA-ID-1"
+      ]
+    },
+    {
+      "node_id": "3726",
+      "name": "217783_NaxSH0_ChannelML-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "217783_NaxSH0_ChannelML-ID-1"
+      ]
+    },
+    {
+      "node_id": "3727",
+      "name": "217783_NaP_iAMC_Fig10Hii_ChannelML-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "217783_NaP_iAMC_Fig10Hii_ChannelML-ID-1"
+      ]
+    },
+    {
+      "node_id": "3730",
+      "name": "217783_NaP_iAMC_ChannelML-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "217783_NaP_iAMC_ChannelML-ID-1"
+      ]
+    },
+    {
+      "node_id": "3736",
+      "name": "217783_NaxSH10_ChannelML-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "217783_NaxSH10_ChannelML-ID-1"
+      ]
+    },
+    {
+      "node_id": "3789",
+      "name": "9769_na3n-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "9769_na3n-ID-1"
+      ]
+    },
+    {
+      "node_id": "3790",
+      "name": "9769_naxn-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "9769_naxn-ID-1"
+      ]
+    },
+    {
+      "node_id": "3830",
+      "name": "86537_nav1p9-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "86537_nav1p9-ID-1"
+      ]
+    },
+    {
+      "node_id": "3831",
+      "name": "86537_nattxs-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "86537_nattxs-ID-1"
+      ]
+    },
+    {
+      "node_id": "3840",
+      "name": "3434_nahh-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "3434_nahh-ID-1"
+      ]
+    },
+    {
+      "node_id": "3856",
+      "name": "144482_na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "144482_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "3860",
+      "name": "144482_naf-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "144482_naf-ID-1"
+      ]
+    },
+    {
+      "node_id": "3861",
+      "name": "144482_na1-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "144482_na1-ID-1"
+      ]
+    },
+    {
+      "node_id": "3862",
+      "name": "20756_nap-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "20756_nap-ID-1",
+        "144482_nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "3868",
+      "name": "144482_nafsoma-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "144482_nafsoma-ID-1"
+      ]
+    },
+    {
+      "node_id": "3904",
+      "name": "150288_na3DA-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "150288_na3DA-ID-1"
+      ]
+    },
+    {
+      "node_id": "3908",
+      "name": "150288_na3-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "150288_na3-ID-1"
+      ]
+    },
+    {
+      "node_id": "3935",
+      "name": "3800_inaf-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "3800_inaf-ID-1"
+      ]
+    },
+    {
+      "node_id": "3982",
+      "name": "3493_na_moto-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "3493_na_moto-ID-1"
+      ]
+    },
+    {
+      "node_id": "3989",
+      "name": "87473_nap-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "87473_nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "3992",
+      "name": "155796_nav17-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "155796_nav17-ID-1"
+      ]
+    },
+    {
+      "node_id": "3993",
+      "name": "155796_nav13-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "155796_nav13-ID-1"
+      ]
+    },
+    {
+      "node_id": "3997",
+      "name": "155796_nav19-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "155796_nav19-ID-1"
+      ]
+    },
+    {
+      "node_id": "4025",
+      "name": "150446_NafTraub1994ax-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "150446_NafTraub1994ax-ID-1"
+      ]
+    },
+    {
+      "node_id": "4036",
+      "name": "51196_grg_nar-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "51196_grg_nar-ID-1"
+      ]
+    },
+    {
+      "node_id": "4038",
+      "name": "51196_grc_pna-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "51196_grc_pna-ID-1"
+      ]
+    },
+    {
+      "node_id": "4043",
+      "name": "51196_grg_na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "51196_grg_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "4060",
+      "name": "116862_naf2-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "116862_naf2-ID-1",
+        "136095_naf2-ID-1"
+      ]
+    },
+    {
+      "node_id": "4064",
+      "name": "116862_nap-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "116862_nap-ID-1",
+        "136095_nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "4093",
+      "name": "53869_na_VCN2003-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "53869_na_VCN2003-ID-1"
+      ]
+    },
+    {
+      "node_id": "4105",
+      "name": "98005_na2_ch-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "98005_na2_ch-ID-1"
+      ]
+    },
+    {
+      "node_id": "4110",
+      "name": "98005_na_ch-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "98005_na_ch-ID-1"
+      ]
+    },
+    {
+      "node_id": "4149",
+      "name": "87284_na3n-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "87284_na3n-ID-1"
+      ]
+    },
+    {
+      "node_id": "4158",
+      "name": "150621_NaPm-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "150621_NaPm-ID-1",
+        "150556_NaPm-ID-1"
+      ]
+    },
+    {
+      "node_id": "4162",
+      "name": "150621_Nam-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "150621_Nam-ID-1",
+        "150556_Nam-ID-1"
+      ]
+    },
+    {
+      "node_id": "4164",
+      "name": "150621_NaSm-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "150621_NaSm-ID-1",
+        "150556_NaSm-ID-1"
+      ]
+    },
+    {
+      "node_id": "4168",
+      "name": "185328_hhnachan-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "185328_hhnachan-ID-1"
+      ]
+    },
+    {
+      "node_id": "4181",
+      "name": "64212_navn-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "64212_navn-ID-1"
+      ]
+    },
+    {
+      "node_id": "4206",
+      "name": "123927_Nap-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "123927_Nap-ID-1"
+      ]
+    },
+    {
+      "node_id": "4242",
+      "name": "149100_NaTg-ID-1",
+      "ion_class": "Na",
+      "copies": 2,
+      "unique_ids": [
+        "149100_NaTg-ID-1",
+        "239145_NaTg-ID-1"
+      ]
+    },
+    {
+      "node_id": "4273",
+      "name": "126637_NaPcvode-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "126637_NaPcvode-ID-1"
+      ]
+    },
+    {
+      "node_id": "4278",
+      "name": "126637_NaF-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "126637_NaF-ID-1"
+      ]
+    },
+    {
+      "node_id": "4280",
+      "name": "126637_NaP-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "126637_NaP-ID-1"
+      ]
+    },
+    {
+      "node_id": "4282",
+      "name": "126637_NaFcvode-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "126637_NaFcvode-ID-1"
+      ]
+    },
+    {
+      "node_id": "4301",
+      "name": "230326_nadp-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "230326_nadp-ID-1"
+      ]
+    },
+    {
+      "node_id": "4318",
+      "name": "232023_Golgi_Na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "232023_Golgi_Na-ID-1"
+      ]
+    },
+    {
+      "node_id": "4320",
+      "name": "232023_Golgi_NaR-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "232023_Golgi_NaR-ID-1"
+      ]
+    },
+    {
+      "node_id": "4321",
+      "name": "232023_Golgi_NaP-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "232023_Golgi_NaP-ID-1"
+      ]
+    },
+    {
+      "node_id": "4343",
+      "name": "232023_GRANULE_NA-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "232023_GRANULE_NA-ID-1"
+      ]
+    },
+    {
+      "node_id": "4348",
+      "name": "232023_GRANULE_NAR-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "232023_GRANULE_NAR-ID-1"
+      ]
+    },
+    {
+      "node_id": "4353",
+      "name": "232023_GRANULE_PNA-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "232023_GRANULE_PNA-ID-1"
+      ]
+    },
+    {
+      "node_id": "4396",
+      "name": "20756_naf-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "20756_naf-ID-1"
+      ]
+    },
+    {
+      "node_id": "4426",
+      "name": "223955_na8stE1211K-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "223955_na8stE1211K-ID-1"
+      ]
+    },
+    {
+      "node_id": "4427",
+      "name": "223955_na8std12n-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "223955_na8std12n-ID-1"
+      ]
+    },
+    {
+      "node_id": "4428",
+      "name": "223955_na8stL1330F-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "223955_na8stL1330F-ID-1"
+      ]
+    },
+    {
+      "node_id": "4429",
+      "name": "223955_na8stI1473M-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "223955_na8stI1473M-ID-1"
+      ]
+    },
+    {
+      "node_id": "4430",
+      "name": "223955_na8stt1420m-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "223955_na8stt1420m-ID-1"
+      ]
+    },
+    {
+      "node_id": "4431",
+      "name": "223955_na8stD82G-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "223955_na8stD82G-ID-1"
+      ]
+    },
+    {
+      "node_id": "4432",
+      "name": "223955_na8stL1536V-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "223955_na8stL1536V-ID-1"
+      ]
+    },
+    {
+      "node_id": "4435",
+      "name": "3342_na-ID-2",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "3342_na-ID-2"
+      ]
+    },
+    {
+      "node_id": "4457",
+      "name": "54903_na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "54903_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "4458",
+      "name": "54903_nach-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "54903_nach-ID-1"
+      ]
+    },
+    {
+      "node_id": "4459",
+      "name": "54903_naxn-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "54903_naxn-ID-1"
+      ]
+    },
+    {
+      "node_id": "4460",
+      "name": "54903_naf-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "54903_naf-ID-1"
+      ]
+    },
+    {
+      "node_id": "4465",
+      "name": "82849_naf-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "82849_naf-ID-1"
+      ]
+    },
+    {
+      "node_id": "4504",
+      "name": "122329_na6_gp-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "122329_na6_gp-ID-1"
+      ]
+    },
+    {
+      "node_id": "4530",
+      "name": "151482_na3-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "151482_na3-ID-1"
+      ]
+    },
+    {
+      "node_id": "4533",
+      "name": "35358_nafPR-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "35358_nafPR-ID-1"
+      ]
+    },
+    {
+      "node_id": "4541",
+      "name": "37857_na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "37857_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "4572",
+      "name": "84589_nax-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "84589_nax-ID-1"
+      ]
+    },
+    {
+      "node_id": "4583",
+      "name": "147514_na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "147514_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "4587",
+      "name": "141273_na_2-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "141273_na_2-ID-1"
+      ]
+    },
+    {
+      "node_id": "4632",
+      "name": "144502_na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "144502_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "4658",
+      "name": "117207_na-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "117207_na-ID-1"
+      ]
+    },
+    {
+      "node_id": "4692",
+      "name": "20212_nax-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "20212_nax-ID-1"
+      ]
+    },
+    {
+      "node_id": "4702",
+      "name": "20212_na3-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "20212_na3-ID-1"
+      ]
+    },
+    {
+      "node_id": "4709",
+      "name": "20212_namir-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "20212_namir-ID-1"
+      ]
+    },
+    {
+      "node_id": "4751",
+      "name": "62266_B_NA-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "62266_B_NA-ID-1"
+      ]
+    },
+    {
+      "node_id": "4811",
+      "name": "150551_na3-ID-1",
+      "ion_class": "Na",
+      "copies": 1,
+      "unique_ids": [
+        "150551_na3-ID-1"
+      ]
+    }
+  ]
+}

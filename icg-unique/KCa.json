@@ -1,0 +1,1695 @@
+{
+  "ion_class": "KCa",
+  "nodes_count": 154,
+  "copies_total": 456,
+  "nodes": [
+    {
+      "node_id": "105",
+      "name": "20212_kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 9,
+      "unique_ids": [
+        "20212_kca-ID-1",
+        "123815_kca-ID-1",
+        "144490_kca-ID-2",
+        "154732_kca-ID-1",
+        "157157_kca-ID-1",
+        "206244_kca-ID-1",
+        "181967_kca-ID-1",
+        "246546_kca-ID-1",
+        "256311_kca-ID-1"
+      ]
+    },
+    {
+      "node_id": "109",
+      "name": "123815_gskch-ID-1",
+      "ion_class": "KCa",
+      "copies": 7,
+      "unique_ids": [
+        "123815_gskch-ID-1",
+        "151126_gskch-ID-1",
+        "157157_gskch-ID-1",
+        "181967_gskch-ID-1",
+        "256388_gskch-ID-1",
+        "246546_gskch-ID-1",
+        "256311_gskch-ID-1"
+      ]
+    },
+    {
+      "node_id": "126",
+      "name": "20212_cagk-ID-1",
+      "ion_class": "KCa",
+      "copies": 8,
+      "unique_ids": [
+        "20212_cagk-ID-1",
+        "123815_cagk-ID-1",
+        "144490_cagk-ID-2",
+        "157157_cagk-ID-1",
+        "206244_cagk-ID-1",
+        "246546_cagk-ID-1",
+        "256311_cagk-ID-1",
+        "267311_cagk-ID-1"
+      ]
+    },
+    {
+      "node_id": "261",
+      "name": "144089_kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 2,
+      "unique_ids": [
+        "144089_kca-ID-1",
+        "230811_kca-ID-1"
+      ]
+    },
+    {
+      "node_id": "262",
+      "name": "144089_kct-ID-1",
+      "ion_class": "KCa",
+      "copies": 2,
+      "unique_ids": [
+        "144089_kct-ID-1",
+        "230811_kct-ID-1"
+      ]
+    },
+    {
+      "node_id": "321",
+      "name": "80769_CaBK-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "80769_CaBK-ID-1"
+      ]
+    },
+    {
+      "node_id": "332",
+      "name": "151460_sKCa-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "151460_sKCa-ID-1"
+      ]
+    },
+    {
+      "node_id": "347",
+      "name": "64195_kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 14,
+      "unique_ids": [
+        "64195_kca-ID-1",
+        "135787_kca-ID-1",
+        "113732_kca-ID-1",
+        "135839_kca-ID-1",
+        "136803_kca-ID-1",
+        "144372_kca-ID-1",
+        "140828_kca-ID-1",
+        "141273_kca-ID-1",
+        "147514_kca-ID-1",
+        "146026_kca-ID-1",
+        "150538_kca-ID-1",
+        "151685_kca-ID-1",
+        "143604_kca-ID-1",
+        "225075_kca-ID-1"
+      ]
+    },
+    {
+      "node_id": "350",
+      "name": "135787_iahp2-ID-1",
+      "ion_class": "KCa",
+      "copies": 2,
+      "unique_ids": [
+        "135787_iahp2-ID-1",
+        "135839_iahp2-ID-1"
+      ]
+    },
+    {
+      "node_id": "351",
+      "name": "135787_iahp-ID-1",
+      "ion_class": "KCa",
+      "copies": 2,
+      "unique_ids": [
+        "135787_iahp-ID-1",
+        "135839_iahp-ID-1"
+      ]
+    },
+    {
+      "node_id": "370",
+      "name": "112834_bkkca-ID-1",
+      "ion_class": "KCa",
+      "copies": 3,
+      "unique_ids": [
+        "112834_bkkca-ID-1",
+        "151458_bkkca-ID-1",
+        "150284_bkkca-ID-1"
+      ]
+    },
+    {
+      "node_id": "384",
+      "name": "112834_skkca-ID-1",
+      "ion_class": "KCa",
+      "copies": 2,
+      "unique_ids": [
+        "112834_skkca-ID-1",
+        "151458_skkca-ID-1"
+      ]
+    },
+    {
+      "node_id": "429",
+      "name": "3509_cagk-ID-1",
+      "ion_class": "KCa",
+      "copies": 3,
+      "unique_ids": [
+        "3509_cagk-ID-1",
+        "18502_cagk-ID-1",
+        "267176_cagk-ID-1"
+      ]
+    },
+    {
+      "node_id": "443",
+      "name": "97917_kahp-ID-1",
+      "ion_class": "KCa",
+      "copies": 4,
+      "unique_ids": [
+        "97917_kahp-ID-1",
+        "144401_kahp-ID-1",
+        "144579_kahp-ID-1",
+        "244262_kahp-ID-1"
+      ]
+    },
+    {
+      "node_id": "444",
+      "name": "97917_kahp_deeppyr-ID-1",
+      "ion_class": "KCa",
+      "copies": 3,
+      "unique_ids": [
+        "97917_kahp_deeppyr-ID-1",
+        "144579_kahp_deeppyr-ID-1",
+        "244262_kahp_deeppyr-ID-1"
+      ]
+    },
+    {
+      "node_id": "459",
+      "name": "97917_kahp_slower-ID-1",
+      "ion_class": "KCa",
+      "copies": 3,
+      "unique_ids": [
+        "97917_kahp_slower-ID-1",
+        "144579_kahp_slower-ID-1",
+        "244262_kahp_slower-ID-1"
+      ]
+    },
+    {
+      "node_id": "463",
+      "name": "97917_kc_fast-ID-1",
+      "ion_class": "KCa",
+      "copies": 3,
+      "unique_ids": [
+        "97917_kc_fast-ID-1",
+        "144579_kc_fast-ID-1",
+        "244262_kc_fast-ID-1"
+      ]
+    },
+    {
+      "node_id": "474",
+      "name": "97917_kc-ID-1",
+      "ion_class": "KCa",
+      "copies": 4,
+      "unique_ids": [
+        "97917_kc-ID-1",
+        "144401_kc-ID-1",
+        "144579_kc-ID-1",
+        "244262_kc-ID-1"
+      ]
+    },
+    {
+      "node_id": "477",
+      "name": "64229_gskch-ID-1",
+      "ion_class": "KCa",
+      "copies": 6,
+      "unique_ids": [
+        "64229_gskch-ID-1",
+        "97917_gskch-ID-1",
+        "155601_gskch-ID-1",
+        "155602_gskch-ID-1",
+        "149174_gskch-ID-1",
+        "267509_gskch-ID-1"
+      ]
+    },
+    {
+      "node_id": "483",
+      "name": "51781_CaBK-ID-1",
+      "ion_class": "KCa",
+      "copies": 7,
+      "unique_ids": [
+        "51781_CaBK-ID-1",
+        "64229_CaBK-ID-1",
+        "97917_CaBK-ID-1",
+        "149174_CaBK-ID-1",
+        "155602_CaBK-ID-1",
+        "155601_CaBK-ID-1",
+        "155568_CaBK-ID-1"
+      ]
+    },
+    {
+      "node_id": "494",
+      "name": "155057_kct-ID-1",
+      "ion_class": "KCa",
+      "copies": 4,
+      "unique_ids": [
+        "155057_kct-ID-1",
+        "168310_kct-ID-1",
+        "237595_kct-ID-1",
+        "237595_kct-ID-2"
+      ]
+    },
+    {
+      "node_id": "516",
+      "name": "113446_sk-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "113446_sk-ID-1"
+      ]
+    },
+    {
+      "node_id": "602",
+      "name": "20007_KahpM95-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "20007_KahpM95-ID-1"
+      ]
+    },
+    {
+      "node_id": "611",
+      "name": "101629_cagk-ID-1",
+      "ion_class": "KCa",
+      "copies": 18,
+      "unique_ids": [
+        "101629_cagk-ID-1",
+        "87284_cagk-ID-1",
+        "126814_cagk-ID-1",
+        "137259_cagk-ID-1",
+        "148094_cagk-ID-1",
+        "168874_cagk-ID-1",
+        "223649_cagk-ID-1",
+        "185858_cagk-ID-1",
+        "244688_cagk-ID-1",
+        "228599_cagk-ID-1",
+        "258738_cagk-ID-1",
+        "257027_cagk-ID-1",
+        "267066_cagk-ID-1",
+        "267298_cagk-ID-1",
+        "267686_cagk-ID-1",
+        "267742_cagk-ID-1",
+        "267307_cagk-ID-1",
+        "266901_cagk-ID-1"
+      ]
+    },
+    {
+      "node_id": "656",
+      "name": "3808_iahp2-ID-1",
+      "ion_class": "KCa",
+      "copies": 2,
+      "unique_ids": [
+        "3808_iahp2-ID-1",
+        "144372_iahp2-ID-1"
+      ]
+    },
+    {
+      "node_id": "671",
+      "name": "114637_ic-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "114637_ic-ID-1"
+      ]
+    },
+    {
+      "node_id": "677",
+      "name": "144523_SK-ID-1",
+      "ion_class": "KCa",
+      "copies": 4,
+      "unique_ids": [
+        "144523_SK-ID-1",
+        "150024_SK-ID-1",
+        "185513_SK-ID-1",
+        "267189_SK-ID-1"
+      ]
+    },
+    {
+      "node_id": "703",
+      "name": "17664_KC3-ID-1",
+      "ion_class": "KCa",
+      "copies": 2,
+      "unique_ids": [
+        "17664_KC3-ID-1",
+        "149000_KC3-ID-1"
+      ]
+    },
+    {
+      "node_id": "704",
+      "name": "17664_KC2-ID-1",
+      "ion_class": "KCa",
+      "copies": 2,
+      "unique_ids": [
+        "17664_KC2-ID-1",
+        "149000_KC2-ID-1"
+      ]
+    },
+    {
+      "node_id": "708",
+      "name": "17664_K23-ID-1",
+      "ion_class": "KCa",
+      "copies": 2,
+      "unique_ids": [
+        "17664_K23-ID-1",
+        "149000_K23-ID-1"
+      ]
+    },
+    {
+      "node_id": "709",
+      "name": "17664_K22-ID-1",
+      "ion_class": "KCa",
+      "copies": 2,
+      "unique_ids": [
+        "17664_K22-ID-1",
+        "149000_K22-ID-1"
+      ]
+    },
+    {
+      "node_id": "716",
+      "name": "17664_K2-ID-1",
+      "ion_class": "KCa",
+      "copies": 2,
+      "unique_ids": [
+        "17664_K2-ID-1",
+        "149000_K2-ID-1"
+      ]
+    },
+    {
+      "node_id": "719",
+      "name": "17664_KC-ID-1",
+      "ion_class": "KCa",
+      "copies": 2,
+      "unique_ids": [
+        "17664_KC-ID-1",
+        "149000_KC-ID-1"
+      ]
+    },
+    {
+      "node_id": "760",
+      "name": "119266_kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "119266_kca-ID-1"
+      ]
+    },
+    {
+      "node_id": "764",
+      "name": "119266_ic-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "119266_ic-ID-1"
+      ]
+    },
+    {
+      "node_id": "795",
+      "name": "149100_SK_E2-ID-1",
+      "ion_class": "KCa",
+      "copies": 79,
+      "unique_ids": [
+        "149100_SK_E2-ID-1",
+        "180373_SK_E2-ID-1",
+        "180373_SK_E2-ID-2",
+        "156780_SK_E2-ID-1",
+        "225311_SK_E2-ID-1",
+        "224923_SK_E2-ID-1",
+        "231427_SK_E2-ID-1",
+        "230326_SK_E2-ID-1",
+        "229276_SK_E2-ID-1",
+        "241165_SK_E2-ID-25",
+        "241165_SK_E2-ID-4",
+        "241165_SK_E2-ID-14",
+        "241165_SK_E2-ID-8",
+        "241165_SK_E2-ID-15",
+        "241165_SK_E2-ID-18",
+        "241165_SK_E2-ID-12",
+        "241165_SK_E2-ID-17",
+        "241165_SK_E2-ID-1",
+        "241165_SK_E2-ID-13",
+        "241165_SK_E2-ID-19",
+        "241165_SK_E2-ID-24",
+        "241165_SK_E2-ID-20",
+        "241165_SK_E2-ID-22",
+        "241165_SK_E2-ID-21",
+        "241165_SK_E2-ID-6",
+        "241165_SK_E2-ID-7",
+        "241165_SK_E2-ID-16",
+        "241165_SK_E2-ID-10",
+        "241165_SK_E2-ID-26",
+        "241165_SK_E2-ID-23",
+        "241165_SK_E2-ID-3",
+        "241165_SK_E2-ID-2",
+        "241165_SK_E2-ID-9",
+        "241165_SK_E2-ID-11",
+        "241165_SK_E2-ID-5",
+        "251493_SK_E2-ID-1",
+        "239145_SK_E2-ID-1",
+        "261460_SK_E2-ID-1",
+        "260971_SK_E2-ID-6",
+        "260971_SK_E2-ID-1",
+        "260971_SK_E2-ID-4",
+        "260971_SK_E2-ID-3",
+        "260971_SK_E2-ID-2",
+        "260971_SK_E2-ID-5",
+        "266984_SK_E2-ID-1",
+        "266851_SK_E2-ID-2",
+        "267067_SK_E2-ID-2",
+        "267067_SK_E2-ID-1",
+        "266851_SK_E2-ID-1",
+        "266851_SK_E2-ID-3",
+        "267691_SK_E2-ID-8",
+        "267691_SK_E2-ID-15",
+        "267691_SK_E2-ID-1",
+        "267691_SK_E2-ID-22",
+        "267691_SK_E2-ID-21",
+        "267691_SK_E2-ID-14",
+        "267691_SK_E2-ID-12",
+        "267691_SK_E2-ID-5",
+        "267691_SK_E2-ID-24",
+        "267691_SK_E2-ID-11",
+        "267691_SK_E2-ID-13",
+        "267691_SK_E2-ID-26",
+        "267691_SK_E2-ID-18",
+        "267691_SK_E2-ID-2",
+        "267691_SK_E2-ID-23",
+        "267691_SK_E2-ID-20",
+        "267691_SK_E2-ID-17",
+        "267691_SK_E2-ID-10",
+        "267691_SK_E2-ID-3",
+        "267691_SK_E2-ID-7",
+        "267691_SK_E2-ID-9",
+        "267691_SK_E2-ID-4",
+        "267691_SK_E2-ID-25",
+        "267384_SK_E2-ID-1",
+        "267691_SK_E2-ID-19",
+        "267691_SK_E2-ID-6",
+        "267691_SK_E2-ID-16",
+        "249705_SK_E2-ID-1",
+        "267511_SK_E2-ID-1"
+      ]
+    },
+    {
+      "node_id": "860",
+      "name": "101629_KahpM95-ID-1",
+      "ion_class": "KCa",
+      "copies": 10,
+      "unique_ids": [
+        "101629_KahpM95-ID-1",
+        "112546_KahpM95-ID-1",
+        "118986_KahpM95-ID-1",
+        "126814_KahpM95-ID-1",
+        "137259_KahpM95-ID-1",
+        "144392_KahpM95-ID-1",
+        "148094_KahpM95-ID-1",
+        "181967_KahpM95-ID-1",
+        "223649_KahpM95-ID-1",
+        "267298_KahpM95-ID-1"
+      ]
+    },
+    {
+      "node_id": "886",
+      "name": "84612_kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 3,
+      "unique_ids": [
+        "84612_kca-ID-1",
+        "84612_kca-ID-2",
+        "112359_kca-ID-1"
+      ]
+    },
+    {
+      "node_id": "921",
+      "name": "120910_gkcadend-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "120910_gkcadend-ID-1"
+      ]
+    },
+    {
+      "node_id": "944",
+      "name": "102288_IKCa-ID-1",
+      "ion_class": "KCa",
+      "copies": 2,
+      "unique_ids": [
+        "102288_IKCa-ID-1",
+        "182797_IKCa-ID-1"
+      ]
+    },
+    {
+      "node_id": "976",
+      "name": "97860_sk_dop-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "97860_sk_dop-ID-1"
+      ]
+    },
+    {
+      "node_id": "991",
+      "name": "97860_bk_dop-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "97860_bk_dop-ID-1"
+      ]
+    },
+    {
+      "node_id": "992",
+      "name": "123897_kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 5,
+      "unique_ids": [
+        "123897_kca-ID-1",
+        "206398_kca-ID-1",
+        "237594_kca-ID-1",
+        "241160_kca-ID-1",
+        "267355_Kca-ID-1"
+      ]
+    },
+    {
+      "node_id": "1049",
+      "name": "51781_gskch-ID-1",
+      "ion_class": "KCa",
+      "copies": 3,
+      "unique_ids": [
+        "51781_gskch-ID-1",
+        "124513_gskch-ID-1",
+        "155568_gskch-ID-1"
+      ]
+    },
+    {
+      "node_id": "1052",
+      "name": "124513_CaBK-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "124513_CaBK-ID-1"
+      ]
+    },
+    {
+      "node_id": "1109",
+      "name": "82784_Kc-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "82784_Kc-ID-1"
+      ]
+    },
+    {
+      "node_id": "1115",
+      "name": "20756_kahp-ID-1",
+      "ion_class": "KCa",
+      "copies": 4,
+      "unique_ids": [
+        "20756_kahp-ID-1",
+        "144482_kahp-ID-1",
+        "168858_kahp-ID-1",
+        "184497_kahp-ID-1"
+      ]
+    },
+    {
+      "node_id": "1182",
+      "name": "53876_ahp-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "53876_ahp-ID-1"
+      ]
+    },
+    {
+      "node_id": "1243",
+      "name": "112685_Golgi_SK2-ID-1",
+      "ion_class": "KCa",
+      "copies": 3,
+      "unique_ids": [
+        "112685_Golgi_SK2-ID-1",
+        "127021_Golgi_SK2-ID-1",
+        "139656_Golgi_SK2-ID-1"
+      ]
+    },
+    {
+      "node_id": "1252",
+      "name": "116835_GRC_KCA-ID-1",
+      "ion_class": "KCa",
+      "copies": 5,
+      "unique_ids": [
+        "116835_GRC_KCA-ID-1",
+        "139883_GRC_KCA-ID-1",
+        "139656_GRC_KCA-ID-1",
+        "206267_GRC_KCA-ID-1",
+        "267189_GRC_KCA-ID-1"
+      ]
+    },
+    {
+      "node_id": "1258",
+      "name": "112685_Golgi_BK-ID-1",
+      "ion_class": "KCa",
+      "copies": 3,
+      "unique_ids": [
+        "112685_Golgi_BK-ID-1",
+        "127021_Golgi_BK-ID-1",
+        "139656_Golgi_BK-ID-1"
+      ]
+    },
+    {
+      "node_id": "1264",
+      "name": "144450_kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "144450_kca-ID-1"
+      ]
+    },
+    {
+      "node_id": "1266",
+      "name": "144450_kct-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "144450_kct-ID-1"
+      ]
+    },
+    {
+      "node_id": "1285",
+      "name": "143719_kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 4,
+      "unique_ids": [
+        "143719_kca-ID-1",
+        "147757_kca-ID-1",
+        "151126_kca-ID-1",
+        "256388_kca-ID-1"
+      ]
+    },
+    {
+      "node_id": "1336",
+      "name": "128559_iKCa-ID-1",
+      "ion_class": "KCa",
+      "copies": 3,
+      "unique_ids": [
+        "128559_iKCa-ID-1",
+        "168414_iKCa-ID-1",
+        "267056_iKCa-ID-1"
+      ]
+    },
+    {
+      "node_id": "1344",
+      "name": "2730_kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 4,
+      "unique_ids": [
+        "2730_kca-ID-1",
+        "64229_kca-ID-1",
+        "116094_kca-ID-1",
+        "116094_kca-ID-2"
+      ]
+    },
+    {
+      "node_id": "1370",
+      "name": "153280_ch_KvCaB-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "153280_ch_KvCaB-ID-1"
+      ]
+    },
+    {
+      "node_id": "1376",
+      "name": "153280_ch_KCaS-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "153280_ch_KCaS-ID-1"
+      ]
+    },
+    {
+      "node_id": "1450",
+      "name": "138382_mslo-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "138382_mslo-ID-1"
+      ]
+    },
+    {
+      "node_id": "1459",
+      "name": "138382_SK2-ID-1",
+      "ion_class": "KCa",
+      "copies": 2,
+      "unique_ids": [
+        "138382_SK2-ID-1",
+        "244679_SK2-ID-1"
+      ]
+    },
+    {
+      "node_id": "1463",
+      "name": "3808_ic-ID-1",
+      "ion_class": "KCa",
+      "copies": 6,
+      "unique_ids": [
+        "3808_ic-ID-1",
+        "121600_ic-ID-2",
+        "121600_ic-ID-1",
+        "232876_ic-ID-3",
+        "232876_ic-ID-1",
+        "232876_ic-ID-2"
+      ]
+    },
+    {
+      "node_id": "1504",
+      "name": "144385_kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 3,
+      "unique_ids": [
+        "144385_kca-ID-1",
+        "2488_kca-ID-1",
+        "260015_kca-ID-1"
+      ]
+    },
+    {
+      "node_id": "1606",
+      "name": "121060_chan_SKKCa-ID-1",
+      "ion_class": "KCa",
+      "copies": 2,
+      "unique_ids": [
+        "121060_chan_SKKCa-ID-1",
+        "267508_chan_SKKCa-ID-1"
+      ]
+    },
+    {
+      "node_id": "1611",
+      "name": "121060_chan_BKKCa-ID-1",
+      "ion_class": "KCa",
+      "copies": 2,
+      "unique_ids": [
+        "121060_chan_BKKCa-ID-1",
+        "267508_chan_BKKCa-ID-1"
+      ]
+    },
+    {
+      "node_id": "1633",
+      "name": "116096_kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 2,
+      "unique_ids": [
+        "116096_kca-ID-1",
+        "144482_kca-ID-1"
+      ]
+    },
+    {
+      "node_id": "1778",
+      "name": "140249_iahp-ID-1",
+      "ion_class": "KCa",
+      "copies": 2,
+      "unique_ids": [
+        "140249_iahp-ID-1",
+        "156039_iahp-ID-1"
+      ]
+    },
+    {
+      "node_id": "1829",
+      "name": "64228_Kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "64228_Kca-ID-1"
+      ]
+    },
+    {
+      "node_id": "1848",
+      "name": "12631_IAHP_destexhe-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "12631_IAHP_destexhe-ID-1"
+      ]
+    },
+    {
+      "node_id": "1886",
+      "name": "48332_bkpkj-ID-1",
+      "ion_class": "KCa",
+      "copies": 2,
+      "unique_ids": [
+        "48332_bkpkj-ID-1",
+        "155735_bkpkj-ID-1"
+      ]
+    },
+    {
+      "node_id": "1929",
+      "name": "114359_kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "114359_kca-ID-1"
+      ]
+    },
+    {
+      "node_id": "1969",
+      "name": "3263_kahp-ID-1",
+      "ion_class": "KCa",
+      "copies": 5,
+      "unique_ids": [
+        "3263_kahp-ID-1",
+        "147867_kahp-ID-1",
+        "151482_kahp-ID-1",
+        "181967_kahp-ID-1",
+        "266823_kahp-ID-1"
+      ]
+    },
+    {
+      "node_id": "1971",
+      "name": "3263_cagk-ID-1",
+      "ion_class": "KCa",
+      "copies": 4,
+      "unique_ids": [
+        "3263_cagk-ID-1",
+        "147867_cagk-ID-1",
+        "151482_cagk-ID-1",
+        "266823_cagk-ID-1"
+      ]
+    },
+    {
+      "node_id": "2062",
+      "name": "53451_kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "53451_kca-ID-1"
+      ]
+    },
+    {
+      "node_id": "2093",
+      "name": "139421_kcaolmw-ID-1",
+      "ion_class": "KCa",
+      "copies": 4,
+      "unique_ids": [
+        "139421_kcaolmw-ID-1",
+        "151282_kcaolmw-ID-1",
+        "186768_kcaolmw-ID-1",
+        "258738_kcaolmw-ID-1"
+      ]
+    },
+    {
+      "node_id": "2097",
+      "name": "135902_kahppr-ID-1",
+      "ion_class": "KCa",
+      "copies": 7,
+      "unique_ids": [
+        "135902_kahppr-ID-1",
+        "139421_kahppr-ID-1",
+        "135903_kahppr-ID-1",
+        "186768_kahppr-ID-1",
+        "182134_kahppr-ID-1",
+        "230861_kahppr-ID-1",
+        "258738_kahppr-ID-1"
+      ]
+    },
+    {
+      "node_id": "2099",
+      "name": "135902_kcpr-ID-1",
+      "ion_class": "KCa",
+      "copies": 7,
+      "unique_ids": [
+        "135902_kcpr-ID-1",
+        "135903_kcpr-ID-1",
+        "139421_kcpr-ID-1",
+        "186768_kcpr-ID-1",
+        "182134_kcpr-ID-1",
+        "230861_kcpr-ID-1",
+        "258738_kcpr-ID-1"
+      ]
+    },
+    {
+      "node_id": "2143",
+      "name": "52034_kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 3,
+      "unique_ids": [
+        "52034_kca-ID-1",
+        "64229_kca-ID-3",
+        "64229_kca-ID-2"
+      ]
+    },
+    {
+      "node_id": "2160",
+      "name": "64229_kcRT03-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "64229_kcRT03-ID-1"
+      ]
+    },
+    {
+      "node_id": "2177",
+      "name": "64229_kcRT03-ID-2",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "64229_kcRT03-ID-2"
+      ]
+    },
+    {
+      "node_id": "2184",
+      "name": "149739_KCa-ID-1",
+      "ion_class": "KCa",
+      "copies": 3,
+      "unique_ids": [
+        "149739_KCa-ID-1",
+        "183300_KCa-ID-1",
+        "232097_KCa-ID-1"
+      ]
+    },
+    {
+      "node_id": "2211",
+      "name": "150284_skkca-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "150284_skkca-ID-1"
+      ]
+    },
+    {
+      "node_id": "2254",
+      "name": "2733_kca3-ID-1",
+      "ion_class": "KCa",
+      "copies": 2,
+      "unique_ids": [
+        "2733_kca3-ID-1",
+        "153574_kca3-ID-1"
+      ]
+    },
+    {
+      "node_id": "2277",
+      "name": "115356_KCT-ID-1",
+      "ion_class": "KCa",
+      "copies": 3,
+      "unique_ids": [
+        "115356_KCT-ID-1",
+        "123927_KCT-ID-1",
+        "125152_KCT-ID-1"
+      ]
+    },
+    {
+      "node_id": "2279",
+      "name": "115356_KAHP-ID-1",
+      "ion_class": "KCa",
+      "copies": 3,
+      "unique_ids": [
+        "115356_KAHP-ID-1",
+        "123927_KAHP-ID-1",
+        "125152_KAHP-ID-1"
+      ]
+    },
+    {
+      "node_id": "2294",
+      "name": "151443_mAHP-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "151443_mAHP-ID-1"
+      ]
+    },
+    {
+      "node_id": "2311",
+      "name": "9889_IAHP_destexhe-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "9889_IAHP_destexhe-ID-1"
+      ]
+    },
+    {
+      "node_id": "2333",
+      "name": "135902_kcaolmw-ID-1",
+      "ion_class": "KCa",
+      "copies": 4,
+      "unique_ids": [
+        "135902_kcaolmw-ID-1",
+        "135903_kcaolmw-ID-1",
+        "182134_kcaolmw-ID-1",
+        "230861_kcaolmw-ID-1"
+      ]
+    },
+    {
+      "node_id": "2358",
+      "name": "46839_Grc_kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "46839_Grc_kca-ID-1"
+      ]
+    },
+    {
+      "node_id": "2366",
+      "name": "143671_mAHP-ID-1",
+      "ion_class": "KCa",
+      "copies": 5,
+      "unique_ids": [
+        "143671_mAHP-ID-1",
+        "183949_mAHP-ID-1",
+        "180370_mAHP-ID-1",
+        "217882_mAHP-ID-1",
+        "239582_mAHP-ID-1"
+      ]
+    },
+    {
+      "node_id": "2369",
+      "name": "143671_kca2-ID-1",
+      "ion_class": "KCa",
+      "copies": 4,
+      "unique_ids": [
+        "143671_kca2-ID-1",
+        "183949_kca2-ID-1",
+        "180370_kca2-ID-1",
+        "217882_kca2-ID-1"
+      ]
+    },
+    {
+      "node_id": "2395",
+      "name": "2487_kca3-ID-1",
+      "ion_class": "KCa",
+      "copies": 3,
+      "unique_ids": [
+        "2487_kca3-ID-1",
+        "64296_kca3-ID-1",
+        "223649_kca3-ID-1"
+      ]
+    },
+    {
+      "node_id": "2469",
+      "name": "116740_CadepK-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "116740_CadepK-ID-1"
+      ]
+    },
+    {
+      "node_id": "2475",
+      "name": "146030_KCa3_ChannelML_new-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "146030_KCa3_ChannelML_new-ID-1"
+      ]
+    },
+    {
+      "node_id": "2505",
+      "name": "123453_KCa1-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "123453_KCa1-ID-1"
+      ]
+    },
+    {
+      "node_id": "2586",
+      "name": "151825_SK-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "151825_SK-ID-1"
+      ]
+    },
+    {
+      "node_id": "2591",
+      "name": "151825_BK-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "151825_BK-ID-1"
+      ]
+    },
+    {
+      "node_id": "2608",
+      "name": "83344_kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 9,
+      "unique_ids": [
+        "83344_kca-ID-1",
+        "108459_kca-ID-1",
+        "124043_kca-ID-1",
+        "138321_kca-ID-1",
+        "146565_kca-ID-1",
+        "187603_kca-ID-1",
+        "266844_kca-ID-1",
+        "266844_kca-ID-3",
+        "266844_kca-ID-2"
+      ]
+    },
+    {
+      "node_id": "2654",
+      "name": "114685_SK-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "114685_SK-ID-1"
+      ]
+    },
+    {
+      "node_id": "2682",
+      "name": "154732_cagk-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "154732_cagk-ID-1"
+      ]
+    },
+    {
+      "node_id": "2727",
+      "name": "19591_Icinst-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "19591_Icinst-ID-1"
+      ]
+    },
+    {
+      "node_id": "2782",
+      "name": "125385_skca-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "125385_skca-ID-1"
+      ]
+    },
+    {
+      "node_id": "2790",
+      "name": "83547_kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "83547_kca-ID-1"
+      ]
+    },
+    {
+      "node_id": "2800",
+      "name": "144526_Kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 21,
+      "unique_ids": [
+        "144526_Kca-ID-1",
+        "223955_Kca-ID-7",
+        "223955_Kca-ID-12",
+        "223955_Kca-ID-17",
+        "223955_Kca-ID-13",
+        "223955_Kca-ID-1",
+        "223955_Kca-ID-9",
+        "223955_Kca-ID-3",
+        "223955_Kca-ID-16",
+        "223955_Kca-ID-11",
+        "223955_Kca-ID-15",
+        "223955_Kca-ID-20",
+        "223955_Kca-ID-10",
+        "223955_Kca-ID-2",
+        "223955_Kca-ID-19",
+        "223955_Kca-ID-5",
+        "223955_Kca-ID-6",
+        "223955_Kca-ID-14",
+        "223955_Kca-ID-18",
+        "223955_Kca-ID-4",
+        "223955_Kca-ID-8"
+      ]
+    },
+    {
+      "node_id": "3109",
+      "name": "124063_Rod_Kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "124063_Rod_Kca-ID-1"
+      ]
+    },
+    {
+      "node_id": "3120",
+      "name": "93321_kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "93321_kca-ID-1"
+      ]
+    },
+    {
+      "node_id": "3149",
+      "name": "143719_cagk-ID-1",
+      "ion_class": "KCa",
+      "copies": 4,
+      "unique_ids": [
+        "143719_cagk-ID-1",
+        "147757_cagk-ID-1",
+        "151126_cagk-ID-1",
+        "244416_cagk-ID-1"
+      ]
+    },
+    {
+      "node_id": "3173",
+      "name": "153196_kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "153196_kca-ID-1"
+      ]
+    },
+    {
+      "node_id": "3238",
+      "name": "37819_kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "37819_kca-ID-1"
+      ]
+    },
+    {
+      "node_id": "3241",
+      "name": "37819_Iahp-ID-1",
+      "ion_class": "KCa",
+      "copies": 3,
+      "unique_ids": [
+        "37819_Iahp-ID-1",
+        "116862_Iahp-ID-1",
+        "136095_Iahp-ID-1"
+      ]
+    },
+    {
+      "node_id": "3264",
+      "name": "105385_bk_gp-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "105385_bk_gp-ID-1"
+      ]
+    },
+    {
+      "node_id": "3278",
+      "name": "105385_sk_gp-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "105385_sk_gp-ID-1"
+      ]
+    },
+    {
+      "node_id": "3291",
+      "name": "143100_SK-ID-1",
+      "ion_class": "KCa",
+      "copies": 2,
+      "unique_ids": [
+        "143100_SK-ID-1",
+        "267669_SK-ID-1"
+      ]
+    },
+    {
+      "node_id": "3471",
+      "name": "144490_kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "144490_kca-ID-1"
+      ]
+    },
+    {
+      "node_id": "3478",
+      "name": "144490_cagk-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "144490_cagk-ID-1"
+      ]
+    },
+    {
+      "node_id": "3514",
+      "name": "144007_LGMD_KCa-ID-1",
+      "ion_class": "KCa",
+      "copies": 2,
+      "unique_ids": [
+        "144007_LGMD_KCa-ID-1",
+        "144007_LGMD_KCa-ID-2"
+      ]
+    },
+    {
+      "node_id": "3567",
+      "name": "139653_SK_E2-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "139653_SK_E2-ID-1"
+      ]
+    },
+    {
+      "node_id": "3582",
+      "name": "127507_newkca-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "127507_newkca-ID-1"
+      ]
+    },
+    {
+      "node_id": "3634",
+      "name": "3670_IAHP-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "3670_IAHP-ID-1"
+      ]
+    },
+    {
+      "node_id": "3648",
+      "name": "125857_kahp-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "125857_kahp-ID-1"
+      ]
+    },
+    {
+      "node_id": "3656",
+      "name": "125857_kc-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "125857_kc-ID-1"
+      ]
+    },
+    {
+      "node_id": "3680",
+      "name": "151949_iKCa-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "151949_iKCa-ID-1"
+      ]
+    },
+    {
+      "node_id": "3697",
+      "name": "74298_sKCa-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "74298_sKCa-ID-1"
+      ]
+    },
+    {
+      "node_id": "3871",
+      "name": "144482_kc-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "144482_kc-ID-1"
+      ]
+    },
+    {
+      "node_id": "3882",
+      "name": "150288_sahpNE-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "150288_sahpNE-ID-1"
+      ]
+    },
+    {
+      "node_id": "3885",
+      "name": "150288_sahp-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "150288_sahp-ID-1"
+      ]
+    },
+    {
+      "node_id": "3986",
+      "name": "87473_kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "87473_kca-ID-1"
+      ]
+    },
+    {
+      "node_id": "3995",
+      "name": "155796_kca_slow-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "155796_kca_slow-ID-1"
+      ]
+    },
+    {
+      "node_id": "4002",
+      "name": "155796_kca_fast-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "155796_kca_fast-ID-1"
+      ]
+    },
+    {
+      "node_id": "4019",
+      "name": "3807_gkca-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "3807_gkca-ID-1"
+      ]
+    },
+    {
+      "node_id": "4023",
+      "name": "150446_KahpTraub1994-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "150446_KahpTraub1994-ID-1"
+      ]
+    },
+    {
+      "node_id": "4031",
+      "name": "150446_KcTraub1994-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "150446_KcTraub1994-ID-1"
+      ]
+    },
+    {
+      "node_id": "4041",
+      "name": "51196_grc_kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "51196_grc_kca-ID-1"
+      ]
+    },
+    {
+      "node_id": "4079",
+      "name": "139418_ISK-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "139418_ISK-ID-1"
+      ]
+    },
+    {
+      "node_id": "4103",
+      "name": "98005_bk_ch-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "98005_bk_ch-ID-1"
+      ]
+    },
+    {
+      "node_id": "4107",
+      "name": "98005_sk_ch-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "98005_sk_ch-ID-1"
+      ]
+    },
+    {
+      "node_id": "4203",
+      "name": "140471_aabBK-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "140471_aabBK-ID-1"
+      ]
+    },
+    {
+      "node_id": "4231",
+      "name": "3808_iahp-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "3808_iahp-ID-1"
+      ]
+    },
+    {
+      "node_id": "4265",
+      "name": "126637_K23cvode-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "126637_K23cvode-ID-1"
+      ]
+    },
+    {
+      "node_id": "4269",
+      "name": "126637_KC3cvode-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "126637_KC3cvode-ID-1"
+      ]
+    },
+    {
+      "node_id": "4272",
+      "name": "126637_KC3-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "126637_KC3-ID-1"
+      ]
+    },
+    {
+      "node_id": "4277",
+      "name": "126637_K23-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "126637_K23-ID-1"
+      ]
+    },
+    {
+      "node_id": "4398",
+      "name": "20756_kc-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "20756_kc-ID-1"
+      ]
+    },
+    {
+      "node_id": "4463",
+      "name": "82849_ic-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "82849_ic-ID-1"
+      ]
+    },
+    {
+      "node_id": "4479",
+      "name": "112546_cagk-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "112546_cagk-ID-1"
+      ]
+    },
+    {
+      "node_id": "4507",
+      "name": "122329_sk_gp-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "122329_sk_gp-ID-1"
+      ]
+    },
+    {
+      "node_id": "4536",
+      "name": "35358_kcRT03-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "35358_kcRT03-ID-1"
+      ]
+    },
+    {
+      "node_id": "4537",
+      "name": "35358_rkq-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "35358_rkq-ID-1"
+      ]
+    },
+    {
+      "node_id": "4568",
+      "name": "84589_kahp-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "84589_kahp-ID-1"
+      ]
+    },
+    {
+      "node_id": "4581",
+      "name": "84589_kc-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "84589_kc-ID-1"
+      ]
+    },
+    {
+      "node_id": "4683",
+      "name": "20212_kca-ID-2",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "20212_kca-ID-2"
+      ]
+    },
+    {
+      "node_id": "4686",
+      "name": "20212_my_kca-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "20212_my_kca-ID-1"
+      ]
+    },
+    {
+      "node_id": "4696",
+      "name": "20212_vkca-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "20212_vkca-ID-1"
+      ]
+    },
+    {
+      "node_id": "4697",
+      "name": "20212_cagk-ID-2",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "20212_cagk-ID-2"
+      ]
+    },
+    {
+      "node_id": "4717",
+      "name": "20212_kc-ID-1",
+      "ion_class": "KCa",
+      "copies": 1,
+      "unique_ids": [
+        "20212_kc-ID-1"
+      ]
+    }
+  ]
+}
