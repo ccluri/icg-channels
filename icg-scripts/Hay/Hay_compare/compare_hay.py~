@@ -1,0 +1,85 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib import gridspec
+from matplotlib.backends.backend_pdf import PdfPages
+from mpl_toolkits.axes_grid1.anchored_artists import AnchoredSizeBar
+
+plt.rcParams.update({
+    
+    'xtick.labelsize': 15,
+    'xtick.major.size': 10,
+    'ytick.labelsize': 15,
+    'ytick.major.size': 10,
+    'font.size': 12,
+    'axes.labelsize': 15,
+    'axes.titlesize': 20,
+    'axes.titlepad' : 30,
+    'legend.fontsize': 15,
+    # 'figure.subplot.wspace': 0.4,
+    # 'figure.subplot.hspace': 0.4,
+    # 'figure.subplot.left': 0.1,
+})
+
+
+
+filenames = ['BAC_firing.npz', 'Step_current_firing.npz', 'critical_freq.npz']
+folders = ['orig', 'sm']
+
+fig = plt.figure(figsize=(12, 8))
+gs = gridspec.GridSpec(2, 3)
+
+def ax_prune(ax):
+    ax.set_ylim([-85, 40])
+    for ii in ['right', 'bottom', 'top', 'left']:
+        ax.spines[ii].set_visible(False)
+    #ax.set_axis_off()
+    return ax
+
+
+def add_sizebar(ax, size, loc=8, size_vertical=1):
+    # bar1 = AnchoredSizeBar(ax.transData, 100, 'filled',
+    #                        frameon=False, size_vertical=100)
+    # ax.add_artist(bar1)
+    # return ax
+    asb = AnchoredSizeBar(ax.transData,
+                          size,
+                          str(size) + ' ms',
+                          loc=loc,
+                          pad=-0.2, borderpad=.0, sep=5,
+                          frameon=False, size_vertical=size_vertical)
+    asb.size_bar._children[0].set_fill(True)
+    ax.add_artist(asb)
+    return ax
+    
+
+
+for ii,fold in enumerate(folders):
+    BAC = np.load(fold+'/'+filenames[0])
+    ax = plt.subplot(gs[ii, 0])
+    ax.plot(BAC['time'], BAC['soma'], c='k')
+    ax.plot(BAC['time'], BAC['dend'], c='orange')
+    ax.plot(BAC['time'], BAC['dend2'], c='r')
+    ax_prune(ax)
+    ax.set_xlim([250, 400])
+    if ii == 0 :
+        ax.set_ylabel('Original ion channel model')
+    else:
+        ax.set_ylabel('Standardised ion channel model')
+    Step = np.load(fold+'/'+filenames[1])
+    ax = plt.subplot(gs[ii, 1])
+    ax.plot(Step['time'], Step['soma'])
+    freq = np.load(fold+'/'+filenames[2])
+    ax_prune(ax)
+    ax = plt.subplot(gs[ii, 2])
+    ax.plot(freq['time'], freq['soma'], c='k')
+    ax.plot(freq['time'], freq['vdend'], c='r')
+    ax.set_xlim([200, 400])
+    ax_prune(ax)
+    #add_sizebar(ax, 50., loc=3)
+    #add_sizebar(ax, 1, loc=3, size_vertical=50)
+
+with PdfPages('fig2_Hay.pdf') as pdf:
+    pdf.savefig(fig, bbox_inches='tight', dpi=300)
+    
+#plt.show()
+    
