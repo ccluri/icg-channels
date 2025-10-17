@@ -1,0 +1,3 @@
+from neuron import h
+
+h.load_file('simulationcode/BAC_firing.hoc')

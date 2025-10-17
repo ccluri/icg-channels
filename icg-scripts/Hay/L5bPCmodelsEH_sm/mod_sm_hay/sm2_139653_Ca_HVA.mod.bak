@@ -1,0 +1,99 @@
+NEURON
+{
+  SUFFIX Ca_HVA 
+  USEION ca READ eca WRITE ica 
+  RANGE gCa_HVAbar, g, ica
+  GLOBAL eca
+}
+
+UNITS
+{
+  (S) = (siemens)
+  (mV) = (millivolt)
+  (mA) = (milliamp)
+}
+
+PARAMETER
+{
+  	gCa_HVAbar = 0.00001 (S/cm2) 
+
+  am = 0.2193444250574632     (/mV) 
+  bm = -7.265926985921282     (1) 
+  cm = 0.9995691704774347     (1) 
+  dm = -0.002974089184265785     (1) 
+  vhm = -36.5502444789366     (mV) 
+  Am = 13.756798277608434     (/ms) 
+  b1m = 0.09332577399700498     (/mV) 
+  c1m = 0.0011966346985897761     (/mV2) 
+  d1m = 1.227984535476813e-05     (/mV3) 
+  b2m = 0.13792892902997397     (/mV) 
+  c2m = -0.0016916807778887214     (/mV2) 
+  d2m = 7.1321394216974525e-06     (/mV3) 
+
+  ah = -0.045647090427242194     (/mV) 
+  bh = 2.8071240739769356     (1) 
+  ch = 1.0441151714619843     (1) 
+  dh = 0.014255519801108717     (1) 
+  vhh = -66.52656228190702     (mV) 
+  Ah = 899.2793807687058     (/ms) 
+  b1h = -0.03255130885483748     (/mV) 
+  c1h = 0.00020692252475537772     (/mV2) 
+  d1h = -4.497782964444187e-07     (/mV3) 
+  b2h = -0.03196611944418256     (/mV) 
+  c2h = -0.00027692142904230034     (/mV2) 
+  d2h = -2.5110137198195337e-06     (/mV3) 
+}
+
+ASSIGNED
+{
+  v	(mV)
+  eca	(mV)
+  ica	(mA/cm2)
+  g	(S/cm2)
+  celsius	(degC)
+  mInf 
+  mTau 
+  hInf 
+  hTau 
+}
+
+STATE
+{
+  m
+  h
+}
+
+BREAKPOINT
+{
+  SOLVE states METHOD cnexp
+  g = gCa_HVAbar*m*m*h
+  ica = g*(v-eca)
+}
+
+DERIVATIVE states
+{
+  rates(v)
+  m' = (mInf - m) / mTau 
+  h' = (hInf - h) / hTau 
+}
+
+INITIAL
+{
+  rates(v)
+  m = mInf 
+  h = hInf 
+}
+
+PROCEDURE rates(v(mV))
+{
+  UNITSOFF
+
+    mInf = (cm/(1 + exp(-am*v + bm))) + dm 
+    mTau = Am / ( exp(-(b1m*(v-vhm) + c1m*(v-vhm)^2 + d1m*(v-vhm)^3)) + exp((b2m*(v-vhm) + c2m*(v-vhm)^2 + d2m*(v-vhm)^3)) ) 
+
+    hInf = (ch/(1 + exp(-ah*v + bh))) + dh 
+    hTau = Ah / ( exp(-(b1h*(v-vhh) + c1h*(v-vhh)^2 + d1h*(v-vhh)^3)) + exp((b2h*(v-vhh) + c2h*(v-vhh)^2 + d2h*(v-vhh)^3)) ) 
+
+
+  UNITSON
+}
