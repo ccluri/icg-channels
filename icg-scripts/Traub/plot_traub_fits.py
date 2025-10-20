@@ -13,7 +13,7 @@ import pickle
 # import re
 # import sys
 
-from supermodel import *
+from omnimodel import *
 # from scipy.optimize import curve_fit
 # from scipy.interpolate import CubicSpline
 # from scipy.integrate import quad
@@ -26,7 +26,7 @@ rc('text', usetex=True)
 iontypes = ["K", "Na", "Ca", "IH", "KCa"]
 data_dict = {}
 for ion in iontypes:
-    f = open("/home/chchinta/icg-channels/icg-channels-"+ion+".pkl", "rb")
+    f = open("/home/chchinta/icg-channels/icg-pickles/icg-channels-"+ion+".pkl", "rb")
     data_dict[ion] = pickle.load(f)
 
 
