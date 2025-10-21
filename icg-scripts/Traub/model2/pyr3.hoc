@@ -1,0 +1,152 @@
+/*
+
+This port was made from the FORTRAN code into the NEURON enviroment based on 
+
+	Traub RD, Buhl EH, Gloveli T, Whittington MA. Fast Rhythmic Bursting Can Be Induced in Layer 2/3 Cortical Neurons by Enhancing Persistent Na(+) Conductance or by Blocking BK Channels.J Neurophysiol. 2003 Feb;89(2):909-21
+
+This port was made by Roger D Traub and Maciej Lazarewicz (mlazarew@seas.upenn.edu)
+
+Thanks to Ashlen P Reid for help with porting a morphology of the cell.
+
+*/
+
+proc setFig2() {
+	graphList[0].remove_all()
+	xopen("fig2.ses")
+	tstop = 1000
+}
+
+proc setFig4() {
+	graphList[0].remove_all()
+	xopen("fig4.ses")
+	tstop = 450
+}
+
+proc setFig5() {
+	graphList[0].remove_all()
+	xopen("fig5.ses")
+	tstop = 1200
+}
+
+proc setFig6() {
+	graphList[0].remove_all()
+	xopen("fig5.ses")
+	tstop = 1200
+}
+
+proc setFig7() {
+	graphList[0].remove_all()
+	xopen("fig4.ses")
+	tstop = 450
+}
+
+load_file("pyr3_template")
+
+objref pyr3_
+
+dt     		= 0.025 // Simulation are producion proper results even with time step 25 us
+steps_per_ms 	= 40
+
+tstop  		= 1000
+v_init 		= -70
+
+objref vvec, svvec, tvec, f
+vvec = new Vector()
+svvec = new Vector()
+tvec = new Vector()
+strdef tfile_21, tfile_22, tfile_41, tfile_42, tfile_43, tfile_44
+strdef vfile_21, vfile_22, vfile_23, vfile_24, vfile_41, vfile_42, vfile_43, vfile_44
+strdef strmod
+tfile_21 = "output/fig_21/time.txt"
+vfile_21 = "output/fig_21/voltage.txt"
+vfile_23 = "output/fig_21/voltage2.txt"
+tfile_22 = "output/fig_22/time.txt"
+vfile_22 = "output/fig_22/voltage.txt"
+vfile_24 = "output/fig_22/voltage2.txt"
+tfile_41 = "output/fig_41/time.txt"
+vfile_41 = "output/fig_41/voltage.txt"
+tfile_42 = "output/fig_42/time.txt"
+vfile_42 = "output/fig_42/voltage.txt"
+tfile_43 = "output/fig_43/time.txt"
+vfile_43 = "output/fig_43/voltage.txt"
+tfile_44 = "output/fig_44/time.txt"
+vfile_44 = "output/fig_44/voltage.txt"
+strmod = "%g\n"
+f = new File()
+
+proc saveFig21() {
+	f.wopen(tfile_21) 
+	tvec.printf(f, strmod) 
+	f.close()
+	f.wopen(vfile_21)
+	vvec.printf(f, strmod) 
+	f.close() 
+	f.wopen(vfile_23) 
+	svvec.printf(f, strmod) 
+	f.close()
+}
+
+proc saveFig22() {
+	f.wopen(tfile_22) 
+	tvec.printf(f, strmod) 
+	f.close()
+	f.wopen(vfile_22)
+	vvec.printf(f, strmod) 
+	f.close() 
+	f.wopen(vfile_24) 
+	svvec.printf(f, strmod) 
+	f.close()
+}
+
+proc saveFig41() {
+	f.wopen(tfile_41) 
+	tvec.printf(f, strmod) 
+	f.close()
+	f.wopen(vfile_41)
+	vvec.printf(f, strmod) 
+	f.close()
+}
+
+proc saveFig42() {
+	f.wopen(tfile_42) 
+	tvec.printf(f, strmod) 
+	f.close()
+	f.wopen(vfile_42)
+	vvec.printf(f, strmod) 
+	f.close() 
+}
+
+proc saveFig43() {
+	f.wopen(tfile_43) 
+	tvec.printf(f, strmod) 
+	f.close()
+	f.wopen(vfile_43)
+	vvec.printf(f, strmod) 
+	f.close() 
+}
+
+proc saveFig44() {
+	f.wopen(tfile_44) 
+	tvec.printf(f, strmod) 
+	f.close()
+	f.wopen(vfile_44)
+	vvec.printf(f, strmod) 
+	f.close() 
+}
+
+
+xpanel("Traub RD 2003 Cortical Pyramidal Neuron Layer 2/3")
+	xbutton("Figure 2 ( left )", " pyr3_ = new pyr3( 21 ) tvec.record(&t) vvec.record(&pyr3_.comp[43].v(0.5)) svvec.record(&pyr3_.comp[1].v(0.5)) setFig2() run() saveFig21()" )
+	xbutton("Figure 2 ( right )", " pyr3_ = new pyr3( 22 ) tvec.record(&t) vvec.record(&pyr3_.comp[43].v(0.5)) svvec.record(&pyr3_.comp[1].v(0.5)) setFig2() run() saveFig22()" )
+	xbutton("Figure 4 Injection 2.5 nA", " pyr3_ = new pyr3( 41 ) tvec.record(&t) vvec.record(&pyr3_.comp[1].v(0.5)) setFig4() run() saveFig41()" )
+	xbutton("Figure 4 Injection 1.5 nA", " pyr3_ = new pyr3( 42 ) tvec.record(&t) vvec.record(&pyr3_.comp[1].v(0.5)) setFig4() run() saveFig42()" )
+	xbutton("Figure 4 Injection 1.1 nA", " pyr3_ = new pyr3( 43 ) tvec.record(&t) vvec.record(&pyr3_.comp[1].v(0.5)) setFig4() run() saveFig43()" )
+	xbutton("Figure 4 Injection 0.6 nA", " pyr3_ = new pyr3( 44 ) tvec.record(&t) vvec.record(&pyr3_.comp[1].v(0.5)) setFig4() run() saveFig44()" )
+	xbutton("Figure 5 B1", " pyr3_ = new pyr3( 51 ) setFig5() run() " )
+	xbutton("Figure 5 B2", " pyr3_ = new pyr3( 52 ) setFig5() run()" )
+	xbutton("Figure 6 B1", " pyr3_ = new pyr3( 61 ) setFig6() run()" )
+	xbutton("Figure 6 B2", " pyr3_ = new pyr3( 62 ) setFig6() run()" )
+	xbutton("Figure 7 g_NaP x 0.0", " pyr3_ = new pyr3( 71 ) setFig7() run()" )
+	xbutton("Figure 7 g_NaP x 0.7", " pyr3_ = new pyr3( 72 ) setFig7() run()" )
+	xbutton("Figure 7 g_NaP x 1.0", " pyr3_ = new pyr3( 73 ) setFig7() run()" )
+xpanel(6,105)
